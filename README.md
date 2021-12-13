@@ -1,15 +1,15 @@
 # Portfolio Jake van der Valk 18064396 
 portfolio applied data science
 
-##Verplichte criterea per student
-###DataCamp
+## Verplichte criterea per student
+### DataCamp
 
-###Reflection and evaluation
+### Reflection and evaluation
 
 
-##Research project
+## Research project
 
-###Predictive Analytics
-###Domain knowledge
-###Data preprocessing
-###Communication
+### Predictive Analytics
+### Domain knowledge
+### Data preprocessing
+### Communication
