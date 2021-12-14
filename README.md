@@ -50,5 +50,7 @@ Dit zijn natuurlijk simpele dingen. De ingewikkelde dingen werden goed uitgelegd
 Presenteren is niet één van mijn sterkste punten. Dit is natuurlijk voor een ICT student niet heel gek maar het is wel iets waar ik beter in wilde worden. Om hier meer ervaring in op te doen heb ik er voor gekozen om meerdere presentaties te geven. Zowel voor de klas als voor enkel het projectgroepje. De presentaties die ik heb gegeven zijn: 
 - [presentatie 1](https://github.com/jakevalk/portfolio/blob/main/presentaties/WheelsSprint%2004102021%20v1.pdf) 
 - [presentatie 2](https://google.com) 
-- [presentatie 3](https://google.com)
+
+Ik was van plan om nog een derde presentatie te geven. Dit heb ik helaas niet kunnen doen. Ik had de dag ervoor een hersenschudding gekregen. Omdat ik een dag complete rust nodig had moest een groepsgenoot de presentatie in mijn plaats doen.
+- [presentatie](https://google.com)
 #### Writing paper
