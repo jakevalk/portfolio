@@ -21,12 +21,17 @@ Dit zijn natuurlijk simpele dingen. De ingewikkelde dingen werden goed uitgelegd
 #### Evaluation on the group project as a whole.
 
 ## Research project
+Ik heb aan het research project actief meegedaan. Mede omdat ik zelf 100% deze opdracht wilde. Ik heb deze project dan ook als leuk ervaren.
 #### Task definition
 #### Evaluation
 #### Conclusions
 #### Planning
+Ik heb tijdens het project veel met scrum gewerkt. Ik was namelijk de scrummaster. Ik was de scrummaster omdat ik degene was die het meeste ervaring had van scrum. Ik heb bij het project mijn best gedaan om de best practice regels van scrum te volgen. Dit was niet altijd even makkelijk. Tijdens het project waren er steeds momenten dat het niet helemaal perfect ging. Het verdelen van punten zorgde namelijk voor verwarrinng. Om dit op te lossen had ik besloten om scrumpoker te gebruiken. Dit is een methode waarin dit een stuk eenvoudiger wordt gedaan. Iedereen vult namelijk op een website een getal in en dit wordt vervolgens weergegeven. Dit is misschien heel simpel maar het heeft wel veel geholpen. 
+
+Tijdens het project hebben we verschillende retrospectives gehad. Hierin konden we allemaal vertellen waar we mee zaten. In het begin schreef ik dit allemaal op in een word document. Ik kwam er vrij snel achter dat dit niet effectief was. Ik moest namelijk steeds alles doen. Hierdoor moesten mensen soms iets twee keer zeggen. Hierdoor besloot ik om een betere methode te vinden. Ik vond toen een website die dit goed kon. Hier kon elk groepslid zelf dingen toevoegen en zag het er ook een stuk beter uit. Dit werd goed ontvangen.
 
 ### Predictive Analytics
+Ik heb tijdens het project aan vele verschillende modellen gewerkt. Dit heb ik gedaan om veel ervaring te krijgen binnen de stof. Dit heb ik uiteraard allemaal met een reden gedaan.
 #### Selecting a Model
 #### Configuring a Model
 #### Training a model
@@ -49,7 +54,7 @@ Tijdens het project heb ik veel met models gewerkt. Dit is zowel tijdens de prot
 #### Data visualization (exploratory)
 
 ### Communication
-Omdat ik ICT doe zijn mijn soft skills niet perfect. Ik heb hier tijdens deze minor veel op kunnen oefenen. 
+Mede omdat ik ICT doe zijn mijn communicatie skills niet perfect. Ik heb hier tijdens deze minor veel op kunnen oefenen. 
 
 #### Presentations
 Presenteren is niet één van mijn sterkste punten. Dit is natuurlijk voor een ICT student niet heel gek maar het is wel iets waar ik beter in wilde worden. Om hier meer ervaring in op te doen heb ik er voor gekozen om meerdere presentaties te geven. Zowel voor de klas als voor enkel het projectgroepje. De presentaties die ik heb gegeven zijn: 
