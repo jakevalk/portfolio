@@ -47,7 +47,10 @@ Tijdens mijn studie ben ik licht in contact gekomen met Articial Intellegence. I
 
 ### Data preprocessing
 Tijdens het project heb ik veel met models gewerkt. Dit is zowel tijdens de prototype fase gebeurt als bij de "echte" project.
+
 #### Data exploration
+In het begin van het project was de dataset compleet onduidelijk. Om dit duidelijker te krijgen heb ik voor meerdere features besloten om deze te visualizeren. Hierbij nam ik verschillende collumns en gaf dit weer in combinatie met de TimeLine. Dit komt omdat het een time series is. Dit betekend dat het tijd gebruikt om de data te structureren. Ik heb vervolgens hiervoor meerdere data punten samen gevisualizeerd. Dit gaf mij toender tijd een goed beeld van de situatie.
+
 #### Data cleansing
 #### Data preparation
 #### Data explanation
