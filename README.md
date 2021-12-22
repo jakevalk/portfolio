@@ -74,10 +74,14 @@ Presenteren is niet één van mijn sterkste punten. Dit is natuurlijk voor een I
 
 Ik was van plan om nog een derde presentatie te geven. Dit heb ik helaas niet kunnen doen. Ik had de dag ervoor een hersenschudding gekregen. Omdat ik een dag complete rust nodig had moest een groepsgenoot de presentatie in mijn plaats doen.
 - [presentatie](https://google.com)
+
+
 ## Writing paper
 Ik heb actief meegedaan met het schrijven van de paper. Dit heb ik voornamelijk gedaan om een goede groepsgenoot te zijn. Ik heb aan verschillende stukken gewerkt. Bij ons groepje was het zo dat iedereen steeds zijn werk afmaakt en dat een ander dit vervolgens op basis van de feedback verbeterd/uitwerkt.
 Dit zijn de verschillende punten:
 #### Discussion/Recomendation
 Ik heb de hele recommendation geschreven. Ik heb hierbij de feedback van mijn groepsgenoten verwerkt om het zo goed mogelijk te maken.
 #### Data preperation
-#### promblem description
+Bij het data preperation stuk heb ik twee stukken samengevoegd. Deze waren eerder door andere geschreven. Ik heb deze stukken vloeiend laten lopen en heb deze verder uitgebreid. Dit is later door een ander overgenomen.
+#### problem description
+Na de eerste feedback ronden kwamen we er als groep achter dat het problem description gedeelte moest worden vernieuwd. Ik heb dit toen samen met Alex gedaan. We hebben de problem description opnieuw geschreven en nieuwe research (sub)questions geformuleerd. De research question is op een later moment nog verder veranderd. 
