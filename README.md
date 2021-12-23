@@ -59,6 +59,8 @@ Tijdens het project heb ik veel met models gewerkt. Dit is zowel tijdens de prot
 ## Data exploration
 In het begin van het project was de dataset compleet onduidelijk. Om dit duidelijker te krijgen heb ik voor meerdere features besloten om deze te visualizeren. Hierbij nam ik verschillende collumns en gaf dit weer in combinatie met de TimeLine. Dit komt omdat het een time series is. Dit betekend dat het tijd gebruikt om de data te structureren. Ik heb vervolgens hiervoor meerdere data punten samen gevisualizeerd. Dit gaf mij toender tijd een goed beeld van de situatie.
 
+Om een beter beeld te krijgen ben ik begonnen met experientetern met de dataset. Dit heb ik toen gedaan omdat er tijdens dit proces verschillende problemen opkomen dat is dan dan vervolgens worden verwerkt. [zie hier er meer over](htttps://www.jakevandervalk.nl)
+
 ## Data cleansing
 ## Data preparation
 ## Data explanation
