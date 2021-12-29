@@ -2,7 +2,7 @@ Name: Jake van der Valk
 
 Studentnummer: 18064396
 
-Leraren: J. Vuurens & R. Vermeij & T. Andrioli
+Leraren: J. Vuurens, R. Vermeij en T. Andrioli
 
 Project: Wheels
 
@@ -25,16 +25,32 @@ Dit zijn natuurlijk simpele dingen. De ingewikkelde dingen werden goed uitgelegd
 
 ## Reflection and evaluation
 ### Reflection on own contribution to the project.
-### Reflection on own learning objectives.
-### Evaluation on the group project as a whole.
+#### Situatie
+#### Taak
+#### Actie
+#### Resultaat
+#### Reflectie
 
+### Reflection on own learning objectives.
+#### Situatie
+#### Taak
+#### Actie
+#### Resultaat
+#### Reflectie
+
+### Evaluation on the group project as a whole.
+#### Situatie
+#### Taak
+#### Actie
+#### Resultaat
+#### Reflectie
 # Research project
 Ik heb aan het research project actief meegedaan. Mede omdat ik zelf 100% deze opdracht wilde. Ik heb deze project dan ook als leuk ervaren.
 ## Task definition
 ## Evaluation
 ## Conclusions
 ## Planning
-Ik heb tijdens het project veel met scrum gewerkt. Ik was namelijk de scrummaster. Ik was de scrummaster omdat ik degene was die het meeste ervaring had van scrum. Ik heb bij het project mijn best gedaan om de best practice regels van scrum te volgen. Dit was niet altijd even makkelijk. Tijdens het project waren er steeds momenten dat het niet helemaal perfect ging. Het verdelen van punten zorgde namelijk voor verwarrinng. Om dit op te lossen had ik besloten om scrumpoker te gebruiken. Dit is een methode waarin dit een stuk eenvoudiger wordt gedaan. Iedereen vult namelijk op een website een getal in en dit wordt vervolgens weergegeven. Dit is misschien heel simpel maar het heeft wel veel geholpen. 
+Ik heb tijdens het project veel met scrum gewerkt. Ik was namelijk de scrummaster. Ik was de scrummaster omdat ik degene was die het meeste ervaring had van scrum. Ik heb bij het project mijn best gedaan om de best practice regels van scrum te volgen. Dit was niet altijd even makkelijk. Tijdens het project waren er steeds momenten dat het niet helemaal perfect ging. Het verdelen van punten zorgde namelijk voor verwarring. Om dit op te lossen had ik besloten om scrumpoker te gebruiken. Dit is een methode waarin dit een stuk eenvoudiger wordt gedaan. Iedereen vult namelijk op een website een getal in en dit wordt vervolgens weergegeven. Dit is misschien heel simpel maar het heeft wel veel geholpen. 
 
 Tijdens het project hebben we verschillende retrospectives gehad. Hierin konden we allemaal vertellen waar we mee zaten. In het begin schreef ik dit allemaal op in een word document. Ik kwam er vrij snel achter dat dit niet effectief was. Ik moest namelijk steeds alles doen. Hierdoor moesten mensen soms iets twee keer zeggen. Hierdoor besloot ik om een betere methode te vinden. Ik vond toen een website die dit goed kon. Hier kon elk groepslid zelf dingen toevoegen en zag het er ook een stuk beter uit. Dit werd goed ontvangen.
 
@@ -47,7 +63,7 @@ Ik heb tijdens het project aan vele verschillende modellen gewerkt. Dit heb ik g
 ## Visualizing the outcome of a model (explanatory)
 
 # Domain knowledge
-Tijdens mijn studie ben ik licht in contact gekomen met Articial Intellegence. Ik heb dit toen als leuk ervaren. Ik wilde hier dan ook meer van leren. Dit was ook een van de redenen dat ik voor deze minor had gekozen. Ik heb tijdens deze minor veel geleerd. Hieronder zal ik hier meer over vertellen.
+Tijdens mijn studie ben ik licht in contact gekomen met Artificial Intelligence. Ik heb dit toen als leuk ervaren. Ik wilde hier dan ook meer van leren. Dit was ook een van de redenen dat ik voor deze minor had gekozen. Ik heb tijdens deze minor veel geleerd. Hieronder zal ik hier meer over vertellen.
 
 ## Introduction of the subject field
 ## Literature research
@@ -57,13 +73,15 @@ Tijdens mijn studie ben ik licht in contact gekomen met Articial Intellegence. I
 Tijdens het project heb ik veel met models gewerkt. Dit is zowel tijdens de prototype fase gebeurt als bij de "echte" project.
 
 ## Data exploration
-In het begin van het project was de dataset compleet onduidelijk. Om dit duidelijker te krijgen heb ik voor meerdere features besloten om deze te visualizeren. Hierbij nam ik verschillende collumns en gaf dit weer in combinatie met de TimeLine. Dit komt omdat het een time series is. Dit betekend dat het tijd gebruikt om de data te structureren. Ik heb vervolgens hiervoor meerdere data punten samen gevisualizeerd. Dit gaf mij toender tijd een goed beeld van de situatie.
+In het begin van het project was de dataset compleet onduidelijk. Om dit duidelijker te krijgen heb ik voor meerdere features besloten om deze te visualiseren. Hierbij nam ik verschillende columns en gaf dit weer in combinatie met de TimeLine. Dit komt omdat het een time series is. Dit betekend dat het tijd gebruikt om de data te structureren. Ik heb vervolgens hiervoor meerdere data punten samen gevisualiseerd. Dit gaf mij toender tijd een goed beeld van de situatie.
 
-Om een beter beeld te krijgen ben ik begonnen met experientetern met de dataset. Dit heb ik toen gedaan omdat er tijdens dit proces verschillende problemen opkomen dat is dan dan vervolgens worden verwerkt. [zie hier er meer over](https://www.jakevandervalk.nl)
+Om een beter beeld te krijgen ben ik begonnen met experimenteren met de dataset. Dit heb ik toen gedaan omdat er tijdens dit proces verschillende problemen opkomen dat is dan dan vervolgens worden verwerkt. [zie hier er meer over](https://www.jakevandervalk.nl)
 
 ## Data cleansing
 
-Tijdens het project 
+Ik heb tijdens het project meermaals de NaN waardes verwijderd. Dit was gelukkig alleen maar bij categorische variabelen. dit kon dus makkelijk worden opgelost met np.fillna(0). Dit kon omdat ik  Ik had hier dus geen problemen mee.
+
+De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. 
 ## Data preparation
 ## Data explanation
 ## Data visualization (exploratory)
@@ -86,6 +104,6 @@ Dit zijn de verschillende punten:
 #### Discussion/Recomendation
 Ik heb de hele recommendation geschreven. Ik heb hierbij de feedback van mijn groepsgenoten verwerkt om het zo goed mogelijk te maken.
 #### Data preperation
-Bij het data preperation stuk heb ik twee stukken samengevoegd. Deze waren eerder door andere geschreven. Ik heb deze stukken vloeiend laten lopen en heb deze verder uitgebreid. Dit is later door een ander overgenomen.
+Bij het data preparation stuk heb ik twee stukken samengevoegd. Deze waren eerder door andere geschreven. Ik heb deze stukken vloeiend laten lopen en heb deze verder uitgebreid. Dit is later door een ander overgenomen.
 #### problem description
 Na de eerste feedback ronden kwamen we er als groep achter dat het problem description gedeelte moest worden vernieuwd. Ik heb dit toen samen met Alex gedaan. We hebben de problem description opnieuw geschreven en nieuwe research (sub)questions geformuleerd. De research question is op een later moment nog verder veranderd. 
