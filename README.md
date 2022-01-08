@@ -10,8 +10,18 @@ Project: Wheels
 
 Hallo, ik ben Jake van der Valk en ik studeer Software Engineering. Tijdens mijn studie heb ik met de gaafste technieken gewerkt. Hierdoor ben ik ook met Data en Artificial Intelligence in contact gekomen. Dit heb ik als zeer leuk ervaren. Toen ik achter deze minor kwam was de keuze ook al vrij snel gemaakt.
 
+De volgende links verplaatsen je naar de desbetreffende stukken toe:
 
-# Verplichte criterea per student
+- [DataCamp & Reflection and evaluation](#DataCamp-&-Reflection-and-evaluation)
+- [Research project](#Research-project)
+- [Predictive Analytics](#Predictive-Analytics)
+- [Domain knowledge](#Domain-knowledge)
+- [Data preprocessing](#Data-preprocessing)
+- [Communication](#Communication)
+
+
+
+# DataCamp & Reflection and evaluation
 ## DataCamp
 Aangezien ik Software Engineering doe heb ik programmeren altijd al leuk gevonden. Ik had enkel geen ervaring met Python. Hierom heb ik steeds voor de deadline mijn datacamp opgaves gemaakt. De opgaves kan je [hier](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/DataCamp%20proof.PNG) vinden.
 
@@ -20,7 +30,7 @@ Tijdens mijn studie heb ik met veel verschillende talen gewerkt. Dit maakte het 
 - indentation
 - Soms haalde ik talen door elkaar
 
-Dit zijn natuurlijk simpele dingen. De ingewikkelde dingen werden goed uitgelegd en kon door de videos te kijken makkelijk worden gemaakt. Ik was verrast hoe eenvoudig het was om een machine learning functie aan te roepen.
+Dit zijn natuurlijk simpele dingen. De ingewikkelde dingen werden goed uitgelegd en kon door de videos te kijken makkelijk worden gemaakt. Ik was verrast hoe eenvoudig het was om een machine learning functie aan te roepen. Ik kon dan ook sneller dingen 
 
 
 ## Reflection and evaluation
@@ -81,7 +91,8 @@ Om een beter beeld te krijgen ben ik begonnen met experimenteren met de dataset.
 
 Ik heb tijdens het project meermaals de NaN waardes verwijderd. Dit was gelukkig alleen maar bij categorische variabelen. dit kon dus makkelijk worden opgelost met np.fillna(0). Dit kon omdat ik  Ik had hier dus geen problemen mee.
 
-De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. 
+De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in de model gestopt.
+
 ## Data preparation
 ## Data explanation
 ## Data visualization (exploratory)
@@ -102,7 +113,7 @@ Ik was van plan om nog een derde presentatie te geven. Dit heb ik helaas niet ku
 Ik heb actief meegedaan met het schrijven van de paper. Dit heb ik voornamelijk gedaan om een goede groepsgenoot te zijn. Ik heb aan verschillende stukken gewerkt. Bij ons groepje was het zo dat iedereen steeds zijn werk afmaakt en dat een ander dit vervolgens op basis van de feedback verbeterd/uitwerkt.
 Dit zijn de verschillende punten:
 #### Discussion/Recomendation
-Ik heb de hele recommendation geschreven. Ik heb hierbij de feedback van mijn groepsgenoten verwerkt om het zo goed mogelijk te maken.
+Ik heb de de eerste versie van de recommendation geschreven. Ik heb hierbij de feedback van mijn groepsgenoten verwerkt om het zo goed mogelijk te maken.
 #### Data preperation
 Bij het data preparation stuk heb ik twee stukken samengevoegd. Deze waren eerder door andere geschreven. Ik heb deze stukken vloeiend laten lopen en heb deze verder uitgebreid. Dit is later door een ander overgenomen.
 #### problem description
