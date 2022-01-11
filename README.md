@@ -26,10 +26,35 @@ Hallo, ik ben Jake van der Valk en ik studeer Software Engineering. Tijdens mijn
 Ik heb aan het research project actief meegedaan. Mede omdat ik zelf 100% deze opdracht wilde. Ik heb deze project dan ook als leuk ervaren.
 ## Task definition
 
-Binnen sport wil men altijd de beste zijn. De coaches willen daarom ook altijd weten of iemand optimaal presteert. Doormiddel van technologie probeert men dat te bereiken [[1]](#bron-1) . Binnen sporten als Rugby, Voetbal, Australian Football, Hockey en American Football zijn GPS trackers al de normaalste zaak. Hiermee kunnen de coaches zien hoeveel een speler heeft gedaan. Ze kunnen dan ook de trainingen aanpassen zodat er geen overbelasting komt [[2]](#bron-2) . 
+Binnen sport wil men altijd de beste zijn. De coaches willen daarom ook altijd weten of iemand optimaal presteert. Doormiddel van technologie probeert men dat te bereiken [[1]](#1). Binnen sporten als Rugby, Voetbal, Australian Rules Football, Hockey en American Football zijn fitness trackers al de normaalste zaak. Hiermee kunnen de coaches zien hoeveel een speler heeft gedaan. Ze kunnen dan ook de trainingen aanpassen zodat er geen overbelasting komt [[2]](#2). Deze trackers zijn speciaal gemaakt voor de gezond van lijf en leden zijn. Ze werken dus niet voor rolstoel sporten. Een stappenteller heeft namelijk weinig nut voor iemand in een rolstoel. Om dit wel mogelijk te maken zijn er IMU trackers op de rolstoel geplaatst. Hiermee kan de rotatie snelheden van de wiel en frame berekent worden. Door verschillende berekeningen kan men achter de snelheid en acceleratie komen [3]. Men wilde toen weten of hier bepaalde spelpatronen konden worden gehaald. Omdat dit handmatig heel veel werk is, werd machine learning als een mogelijke optie gezien. Hier zijn we bij ons project aangekomen.
+
+Bij ons project was het de bedoeling dat we doormiddel van IMU data verschillende rolstoelbasketbal specifieke bewegingen identificeren. Dit zou kunnen worden gebruikt om vermoeidheid en overbelasting te voorspellen. Dit zou kunnen komen doordat beweging te vaak is uitgevoerd. Nadat we orienterende research hadden gedaan zijn wij tot de volgende researchvragen gekomen:
+
+- Research question:
+    - How can IMU data be used to identify wheelchair basketball-specific movements?
+- Sub-questions:
+    - Which form of data processing will be used?
+    - Which specific movements can be detected?
+    - Which sensor data is used for each movement?
+    - Can movements be used to predict fatigue?
+    - Can movements be used to detect overload?
+
+Dit is te vinden in onze [plan van aanpak](planvanaanpak.nl).
 
 ## Evaluation
+
+Halverwege het project kamen we erachter dat dit niet haalbaar was. De dataset had ons teveel problemen gegeven. De videodata klopte niet waardoor we niet zeker konden zijn of we alles hadden. Om dit op te lossen hebben we twee modellen gebruikt en daar van de false positives vergeleken. Toen kwamen we erachter dat de overlap wel een positive value is. Daarom hebben wij ons onderzoek aangepast en verder oplossing gesproken. We hebben hier nieuwe vragen uit gekregen:
+
+- Can an RFC and a RNN be used to classify sprints in partially defined IMU recordings?
+    - Which form of data processing will be used?
+    - Which sensor data is used to detect a sprint?
+
+Op dit moment werkt het enkel met sprints. Dit is maar één beweging. Het was onze bedoeling om dit ook nog voor de contact momenten en de rotaties te doen. Dit was  door tijdsgebrek helaas niet mogelijk. De technieken die we hebben gebruikt zijn niet enkel bij rolstoelbasketbal te gebruiken. In principe zijn de technieken bruikbaar voor veel classificatie problemen waar de dataset niet volledig getagd is.
+
 ## Conclusions
+
+
+
 ## Planning
 Ik heb tijdens het project veel met scrum gewerkt. Ik was namelijk de scrummaster. Ik was de scrummaster omdat ik degene was die het meeste ervaring had van scrum. Ik heb bij het project mijn best gedaan om de best practice regels van scrum te volgen. Dit was niet altijd even makkelijk. Tijdens het project waren er steeds momenten dat het niet helemaal perfect ging. Het verdelen van punten zorgde namelijk voor verwarring. Om dit op te lossen had ik besloten om scrumpoker te gebruiken. Dit is een methode waarin dit een stuk eenvoudiger wordt gedaan. Iedereen vult namelijk op een website een getal in en dit wordt vervolgens weergegeven. Dit is misschien heel simpel maar het heeft wel veel geholpen. 
 
@@ -56,8 +81,22 @@ Hier bij had ik toen zelf voor de Gaussian Naive Bayes gekozen. Dit heb ik gedaa
 Tijdens mijn studie ben ik licht in contact gekomen met Artificial Intelligence. Ik heb dit toen als leuk ervaren. Ik wilde hier dan ook meer van leren. Dit was ook een van de redenen dat ik voor deze minor had gekozen. Ik heb tijdens deze minor veel geleerd. Hieronder zal ik hier meer over vertellen.
 
 ## Introduction of the subject field
+
+*"Knowledge is power."* - Francis Bacon
+
+Al eeuwen lang is het zo dat degene met alle kennis de macht zal hebben. In het verleden waren dit nobelheden maar in deze eeuw zijn het vooral grote bedrijven. Een goed voorbeeld hiervan zijn de [Big Tech](https://en.wikipedia.org/wiki/Big_Tech#FAANG) bedrijven. Deze bedrijven beschikken over gigantisch veel data. Doordat zij zoveel data hebben kunnen zij dit gebruiken om voorspellingen mee te maken. Dit wordt ookwel data science genoemd.
+
+Binnen data science wordt doormiddel van AI een vraagstuk beantwoordt. Dit soort vraagstukken kan verschillen van "Wat is dit?" tot "Wanneer is dit?". Dit kan gebruikt worden om een betere kennis te hebben van de huidige wereld en de toekomst.
+
+Binnen sport wil men ook alles weten. Het is dan ook logisch dat sportteams allemaal analysten in dienst hebben. Doormiddel van trackers en videobeelden bezitten de analysten over heel veel data. Hier uit is dan ook gekomen dat sportteams ook data science zijn gaan gebruiken om patronen in het eigen spel te vinden maar ook die van de tegenstander. Anticiperen is namelijk beter dan reageren.
 ## Literature research
+
+
+
 ## Explanation of Terminology, jargon and definitions
+
+
+
 
 # Data preprocessing
 Tijdens het project heb ik veel met models gewerkt. Dit is zowel tijdens de prototype fase gebeurt als bij de "echte" project.
@@ -203,5 +242,8 @@ Ik ben blij dat ik voor deze minor heb gekozen omdat ik veel heb geleerd.
 #### **Reflectie**
 
 # Bronnen
-# bron 1 https://www.researchgate.net/profile/Lucy-Parrington-2/publication/311166052_The_impact_of_technology_on_elite_sports_performance/links/584f3b1408aed95c25099824/The-impact-of-technology-on-elite-sports-performance.pdf
-# bron 2 https://simplifaster.com/articles/use-gps-technology-team-sports/
+# 1 https://www.researchgate.net/profile/Lucy-Parrington-2/publication/311166052_The_impact_of_technology_on_elite_sports_performance/links/584f3b1408aed95c25099824/The-impact-of-technology-on-elite-sports-performance.pdf
+
+# 2 https://simplifaster.com/articles/use-gps-technology-team-sports/
+
+# 3 https://repository.tudelft.nl/islandora/object/uuid:d8cffad9-efaf-400b-8e36-5d8eb8becc86?collection=research
