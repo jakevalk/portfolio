@@ -26,7 +26,7 @@ Hallo, ik ben Jake van der Valk en ik studeer Software Engineering. Tijdens mijn
 Ik heb aan het research project actief meegedaan. Mede omdat ik zelf 100% deze opdracht wilde. Ik heb deze project dan ook als leuk ervaren.
 ## Task definition
 
-Binnen sport wil men altijd de beste zijn. De coaches willen daarom ook altijd weten of iemand optimaal presteert. Doormiddel van technologie probeert men dat te bereiken [[1]](#1). Binnen sporten als Rugby, Voetbal, Australian Football, Hockey en American Football zijn GPS trackers al de normaalste zaak. Hiermee kunnen de coaches zien hoeveel een speler heeft gedaan. Ze kunnen dan ook de trainingen aanpassen zodat er geen overbelasting komt [[2]](#2). 
+Binnen sport wil men altijd de beste zijn. De coaches willen daarom ook altijd weten of iemand optimaal presteert. Doormiddel van technologie probeert men dat te bereiken [[1]](#####1). Binnen sporten als Rugby, Voetbal, Australian Football, Hockey en American Football zijn GPS trackers al de normaalste zaak. Hiermee kunnen de coaches zien hoeveel een speler heeft gedaan. Ze kunnen dan ook de trainingen aanpassen zodat er geen overbelasting komt [[2]](#####2). 
 
 ## Evaluation
 ## Conclusions
