@@ -25,6 +25,9 @@ Hallo, ik ben Jake van der Valk en ik studeer Software Engineering. Tijdens mijn
 # Research project
 Ik heb aan het research project actief meegedaan. Mede omdat ik zelf 100% deze opdracht wilde. Ik heb deze project dan ook als leuk ervaren.
 ## Task definition
+
+Binnen sport wil men altijd de beste zijn. De coaches willen daarom ook altijd weten of iemand optimaal presteert. Doormiddel van technologie probeert men dat te bereiken [[1]](#1). Binnen sporten als Rugby, Voetbal, Australian Football, Hockey en American Football zijn GPS trackers al de normaalste zaak. Hiermee kunnen de coaches zien hoeveel een speler heeft gedaan. Ze kunnen dan ook de trainingen aanpassen zodat er geen overbelasting komt [[2]](#2). 
+
 ## Evaluation
 ## Conclusions
 ## Planning
@@ -35,6 +38,15 @@ Tijdens het project hebben we verschillende retrospectives gehad. Hierin konden 
 # Predictive Analytics
 Ik heb tijdens het project aan vele verschillende modellen gewerkt. Dit heb ik gedaan om veel ervaring te krijgen binnen de stof. Dit heb ik uiteraard allemaal met een reden gedaan.
 ## Selecting a Model
+
+Binnen het project was het al vrij snel duidelijk dat we een classification model nodig haddden. Dit kwam omdat we verschillende datapunten als sprints moesten classificeren. Aan de start van het project hebben ik en twee groepsgenoten ieder model genomen en deze toegepast op de dataset. Dit deden we om een model op een echte dataset te gebruiken. Hierin zouden we dan achter mogelijke problemen kunnen komen. De modellen waarvoor we gekozen hadden waren:
+
+- KNearestNeighbours
+- Gaussian Naive Bayes
+- Decision Tree
+
+Hier bij had ik toen zelf voor de Gaussian Naive Bayes gekozen. Dit heb ik gedaan omdat GNB goed werkt met 
+
 ## Configuring a Model
 ## Training a model
 ## Evaluating a model
@@ -191,3 +203,5 @@ Ik ben blij dat ik voor deze minor heb gekozen omdat ik veel heb geleerd.
 #### **Reflectie**
 
 # Bronnen
+##### 1 https://www.researchgate.net/profile/Lucy-Parrington-2/publication/311166052_The_impact_of_technology_on_elite_sports_performance/links/584f3b1408aed95c25099824/The-impact-of-technology-on-elite-sports-performance.pdf
+##### 2 https://simplifaster.com/articles/use-gps-technology-team-sports/
