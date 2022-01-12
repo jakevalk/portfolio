@@ -89,11 +89,51 @@ Al eeuwen lang is het zo dat degene met alle kennis de macht zal hebben. In het 
 Binnen data science wordt doormiddel van AI een vraagstuk beantwoordt. Dit soort vraagstukken kan verschillen van "Wat is dit?" tot "Wanneer is dit?". Dit kan gebruikt worden om een betere kennis te hebben van de huidige wereld en de toekomst.
 
 Binnen sport wil men ook alles weten. Het is dan ook logisch dat sportteams allemaal analysten in dienst hebben. Doormiddel van trackers en videobeelden bezitten de analysten over heel veel data. Hier uit is dan ook gekomen dat sportteams ook data science zijn gaan gebruiken om patronen in het eigen spel te vinden maar ook die van de tegenstander. Anticiperen is namelijk beter dan reageren.
+
+Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebruiker merkt hier weinig van. Veel universiteiten hebben dan ook een research afdeling speciaal voor rolstoeltechnieken. Omdat het vrij eenvoudig is om te meten is het makkelijker om hier voortgang in te hebben. Omdat deze rolstoelen heel veel data verzamelen zou het mogelijk zijn om hier data science op te gebruiken. Dit is waar wij nu te maken mee hebben.
 ## Literature research
 
 
 
 ## Explanation of Terminology, jargon and definitions
+
+- **Datasets**
+    - **Features**
+- **Machine Learning**
+    - **Model**
+        - **Classification**
+            - **KNearestNeighbours**
+            - **Gaussian Naïve Bayes**
+            - **Decision Tree**
+            - **RFC**
+        - **Regression**
+        - **Overfitting**
+        - **Underfitting**
+    - **Neural Network**
+        - **Epochs**
+        - **Learning rate**
+        - **Linear layers**
+- **Preprocessing**
+    - **Cleaning**
+    - **Scaling**
+    - **Balancing**
+    - **Numeric**
+    - **Outliers**
+- **Evaluation**
+    - **Evaluation models**
+    - **Confusion Matrix**
+    - **Loss**
+- **Trackers**
+    - **IMU**
+- **Rolstoelbasketbal**
+- **Scrum**
+    - **Scrummaster**
+    - **Sprint**
+        - **User story**
+        - **Retrospective**
+        - **Sprint planning**
+        - **Daily standup** Dit is de dagelijkse meeting waarin de voortgang wordt besproken. Hierbij worden de volgende dingen verteld: "Wat heb ik gisteren gedaan?", "Wat ga ik vandaag doen?" en "Heb ik problemen?". Iedereen moet dit vertellen. Als iedereen dit heeft verteld is de meeting klaar. Bij deze meeting is het de bedoeling dat je staat (daarom heet het ook standup). Hierdoor is het een korte meeting van maximaal 15 minuten.
+
 
 
 
