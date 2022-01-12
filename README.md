@@ -236,10 +236,28 @@ Ik ben blij dat ik voor deze minor heb gekozen omdat ik veel heb geleerd.
 
 ### Evaluation on the group project as a whole.
 #### **Situatie**
+
+Tijdens de minor periode werd er met een groep samengewerkt. Door de verschillende achtergronden van de studenten is dit heel interessant geworden. geen enkele groepsgenoot was namelijk hetzelfde, Elke groepsgenoot had zowel zijn sterkte punten als zijn zwakte punten.
+
 #### **Taak**
+
+Ons projectgroep is zeer divers,  het bestond uit verschillende nationaliteiten en achtergronden. Het was dus ook de bedoeling om deze verschillen te overbruggen zodat er een goed resultaat komt. Het was  de bedoeling om er voor te zorgen dat iedereen beter uit het project komt, zowel cultureel als educationeel. Het was ook de bedoeling dat de taal barrière binnen de groep overkomen werd. Eén groepslid was namelijk Spaans en de rest Nederlands. Ook was het belangrijk om de verschillende sterkte punten van de mensen te benutten. En de zwakte punten te verbeteren.
+
 #### **Actie**
+
+Als groep hebben we besloten om als voertaal Engels te spreken. Dit is de taal die iedereen sprak. Als we met enkel met Nederlanders in gesprek waren was de voertaal Nederlands (als alleen Nederlanders er waren). Ook zijn we na school een aantal keer iets leuks gaan doen. We hebben vaak mensen die goed konden programmeren laten programmeren. Degene die hier minder ervaring mee hadden hielpen hier dan mee. Als er vragen waren binnen de groep hielp iedereen elkaar. Ik ben daarom ook meerdere keren naar school gegaan op een thuiswerkdag om iemand te helpen met zijn DataCamp oefeningen.
+
 #### **Resultaat**
+
+De Engelse voertaal ging vaak goed. Soms vergaten we het en toen zei iemand hier iets van. Dit heeft verder niet voor problemen gezorgd. De onderlinge communicatie binnen de groep was goed. Iedereen gaf zijn mening las hij het er niet mee eens is. Dit zorgde soms wel voor lange meetings. Door de communicatie was men niet bang om vragen te stellen. Dit zorgde voor een betere werkomgeving.
+
 #### **Reflectie**
+
+Ik ben tevreden hoe het met de groep ging. Al vrij vlot kwam iedereen achter elkaars sterkte en zwakte punten. Hier werd dan ook gebruik van gemaakt. Indien iemand vragen had werden deze beantwoord en iedereen had tijd over om iemand te helpen. Alle problemen die er waren in de communicatie werden vrij snel opgelost. Soms reageerden mensen niet op whatsapp berichtjes en soms hadden mensen discussies terwijl ze hetzelfde standpunt hadden maar het iets anders brengen. Dit heeft niet echt voor problemen gezorgd omdat het na één opmerking al opgelost was. De groepsmeetings op school waren leuk en effectief. Ik heb op school veel verschillende projectsgroepen gehad die de één van die dingen waren maar nooit allebij. Ik ben dus heel tevreden met deze groep.
+
+Ook toen ik mijn hersenschudding hadden de groepsgenoten veel begrip en gaven mij de mogelijkheid om mij de korte rust te gunnen (ongeveer 1 week). Zodat ik effectief kon herstellen zodat ik weer op mijn oude niveau kon presteren. Ik ben hier ook heel dankbaar voor.
+
+
 
 # Bronnen
 # 1 https://www.researchgate.net/profile/Lucy-Parrington-2/publication/311166052_The_impact_of_technology_on_elite_sports_performance/links/584f3b1408aed95c25099824/The-impact-of-technology-on-elite-sports-performance.pdf
