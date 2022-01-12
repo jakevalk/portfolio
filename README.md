@@ -8,7 +8,7 @@ Project: Wheels
 
 ---
 
-Hallo, ik ben Jake van der Valk en ik studeer Software Engineering. Tijdens mijn studie heb ik met de gaafste technieken gewerkt. Hierdoor ben ik ook met Data en Artificial Intelligence in contact gekomen. Dit heb ik als zeer leuk ervaren. Toen ik achter deze minor kwam was de keuze ook al vrij snel gemaakt.
+Hallo, ik ben Jake van der Valk en ik studeer Software Engineering. Tijdens mijn studie heb ik met de gaafste technieken gewerkt. Hierdoor ben ik ook met Data en Artificial Intelligence in contact gekomen. Dit heb ik als zeer leuk ervaren. Toen ik achter deze minor kwam was de keuze ook al vrij snel gemaakt. In deze portfolio zal je meer te weten komen over mijn tijd tijdens deze minor.
 
 # Inhoudsopgave
 - [Research project](#Research-project)
@@ -49,11 +49,14 @@ Halverwege het project kamen we erachter dat dit niet haalbaar was. De dataset h
     - Which form of data processing will be used?
     - Which sensor data is used to detect a sprint?
 
-Op dit moment werkt het enkel met sprints. Dit is maar één beweging. Het was onze bedoeling om dit ook nog voor de contact momenten en de rotaties te doen. Dit was  door tijdsgebrek helaas niet mogelijk. De technieken die we hebben gebruikt zijn niet enkel bij rolstoelbasketbal te gebruiken. In principe zijn de technieken bruikbaar voor veel classificatie problemen waar de dataset niet volledig getagd is.
+Deze vragen zijn beantwoord in onze research paper. We hebben ook aan de volgende stap gedacht:
+
+Op dit moment werkt het enkel met sprints. Dit is maar één beweging. Het was onze bedoeling om dit ook nog voor de contact momenten en de rotaties te doen. Dit was  door tijdsgebrek helaas niet mogelijk. Deze bewegingen hebben wel duidelijke patronen. De sprints zouden gebruikt kunnen worden om vermoeidheid te identificeren. De zou gedaan kunnen worden door de snelheid van de sprints te vergelijken. Ook zouden de mogelijke repetities voor overload kunnen zorgen. Dit zou dan blessures kunnen veroorzaken. De technieken die we hebben gebruikt zijn niet enkel bij rolstoelbasketbal te gebruiken. De technieken zijn bruikbaar voor datasets waarin het berekenen van een ground truth voor een classificatie probleem niet goed werkt.
 
 ## Conclusions
 
-
+In dit project hebben we een methode ontworpen die rolstoelbasketbal sprints classificeert doormiddel van een RNN en een RFC. Deze methode maakt het mogelijk om sprints te classificeren in een dataset dat maar voor een deel gedefineerd is. Dit wordt gedaan door de resultaten te vergelijken tussen de twee modellen. Door het vergelijken van de resultaten zijn we van 2.3% naar 17.3% gegaan, dit is hoeveel de dataset uit sprints bestaat.
+Tijdens het validatieproces is gebleken dat de RFC nu 90.4% van alle getagde sprints kan vinden. Dit doet de RFC met een precision van 89%. Dit hebben we vervolgens getest op een andere speler. De RFC had een precision van 91.67% bij de dataset van de andere speler. Dit laat zien dat de model goed werkt, en het mogelijk maakt om sprints te classificeren doormiddel van meerdere modelen.
 
 ## Planning
 Ik heb tijdens het project veel met scrum gewerkt. Ik was namelijk de scrummaster. Ik was de scrummaster omdat ik degene was die het meeste ervaring had van scrum. Ik heb bij het project mijn best gedaan om de best practice regels van scrum te volgen. Dit was niet altijd even makkelijk. Tijdens het project waren er steeds momenten dat het niet helemaal perfect ging. Het verdelen van punten zorgde namelijk voor verwarring. Om dit op te lossen had ik besloten om scrumpoker te gebruiken. Dit is een methode waarin dit een stuk eenvoudiger wordt gedaan. Iedereen vult namelijk op een website een getal in en dit wordt vervolgens weergegeven. Dit is misschien heel simpel maar het heeft wel veel geholpen. 
@@ -97,27 +100,31 @@ Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebrui
 
 ## Explanation of Terminology, jargon and definitions
 
-- **Datasets**
-    - **Features**
+- **Datasets** Een dataset is een tabel waarin data staat. Deze bestaat uit rijen en kolommen. Hierbij zijn de rijen de verschillende datapunten en de kolommen de features. de datasets worden in objecten ingeladen waarna de modellen hun werk hier op kunnen doen.
+    - **Features** Een feature is een meetbaar stuk data dat gebruikt wordt voor de analyse. Denk hierbij aan dingen als: "tijd", "snelheid", "kosten", "actie" en leeftijd.
 - **Machine Learning**
     - **Model**
-        - **Classification**
-            - **KNearestNeighbours**
-            - **Gaussian Naïve Bayes**
-            - **Decision Tree**
-            - **RFC**
-        - **Regression**
+        - **Classification** Bij classification wordt een label voorspelt op basis van de input. Het wordt gebruikt om verschillende objecten van elkaar te onderscheiden. Dit wordt vervolgens in categorieën gestopt. 
+        Dit zijn classification models:
+            - KNearestNeighbours
+            - Gaussian Naive Bayes
+            - Decision Tree
+            - RFC
+        - **Regression** Bij regression wordt er bepaalde waarde voorspelt. Denk hierbij aan de temperatuur of de koerswaarde van een aandeel.
+        - **Ranking** Bij ranking wordt er een bepaalde volgorde voorspelt. Denk hierbij aan een zoek algoritme waarbij op basis van voorkeuren een volgorde wordt voorspelt.
+        - **Clustering** Bij clustering worden vergelijkbare datapunten gegroepeerd. Dit wordt vaak bij algoritmes gebruikt voor marketing. Hier worden dan personen op basis van eigenschappen gesplitst en in groepen gestopt.
         - **Overfitting**
-        - **Underfitting**
+            Bij overfitting is er sprake van dat de model te goed getraind is op de dataset. Dit is een probleem omdat het dan ook enkel werkt op die ene dataset. Hierdoor is de model niet gebruikbaar voor andere datasets. de model zal enkel de patronen uit de oude dataset herkennen. Dit is te verminderen door technieken als cross-validation te gebruiken.
+        - **Underfitting** Bij underfitting is er sprake van een model dat niet heel erg goed is in het identificeren van een patroon in de data. Het is eigenlijk het tegenovergestelde van overfitting. Het betekend dat de model te simpel voor de data. Dit is oplosbaar door een nieuwe set features te gebruiken of gewoon een nieuwe model te gebruiken.
     - **Neural Network**
         - **Epochs**
         - **Learning rate**
         - **Linear layers**
-- **Preprocessing**
+- **Preprocessing** Om een model te gebruiken moet de data eerst goed verwerkt zijn. Als de dataset een rotzooi is zal het niet goed werken. Dit wordt gedaan om de effectiviteit van een model te verbeteren en/of om te zorgen dat de model überhaupt werkt. Dit kan gedaan worden met de volgende stappen:
     - **Cleaning**
     - **Scaling**
-    - **Balancing**
-    - **Numeric**
+    - **Balancing** Indien de positieve en negatieve rows in een dataset niet goed gebalanceerd zijn zal de dataset minder goed werken. Als bijna alle rows negatief zijn zal de model zeggen dat alle rows negatief zijn. Dit wil je voorkomen. Er zijn meerdere manieren om dit te balanceren. Als er ongeveer even positieve als negatieve rows zijn zal dit een stuk beter werken.
+    - **Numeric** Een model werkt niet goed met een combinatie van getallen en woorden. Indien beide voorkomen zal de model crashen. Dit is te voorkomen door het woord een getal aantewijzen. 
     - **Outliers**
 - **Evaluation**
     - **Evaluation models**
@@ -127,12 +134,13 @@ Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebrui
     - **IMU**
 - **Rolstoelbasketbal**
 - **Scrum**
-    - **Scrummaster**
-    - **Sprint**
-        - **User story**
-        - **Retrospective**
-        - **Sprint planning**
+    - **Scrummaster** De scrummaster is een persoon die er voor zorgt dat Scrum goed toegepast wordt. Hij lost hierbij mogelijke knelpunten op en zorgt ervoor dat de rest zich 100% op het project kan focussen.
+    - **Sprint** De fase van een paar weken waarin men tot een tussenproduct komt. Deze fase duurt vaak twee weken en bevat zowel ontwerp, realisatie als testen. Bij een sprint wordt vaak een bord gebruikt met de volgende kolommen: To do, doing, done. Hierin plaatst men de user stories.
+        - **User story** Een user story is iets dat gebruikt wordt om een wens te weergeven. Hierbij wordt een statement opgesteld die zo gaat: "Als {titel van persoon} wil ik dat {de wens} omdat {reden}". In een user story staat precies wat er moet gedaan zijn zodat de wens volbracht kan worden.
+        - **Retrospective** Een retrospective is een meeting waarin over de afgelopen sprint wordt gereflecteerd. Elk groepslid krijgt hierin de kans om zijn mening over de sprint te geven. Hierbij wordt met drie kolommen gewerkt: Start, keep doing en stop. In start worden alle punten gezet die ze nieuw willen zien. Keep doing zijn de punten die goed gaan. En stop zijn de punten waarmee gestopt moet worden. Als men dit goed doet zal het een hoop irritaties verkomen.
+        - **Sprint planning** Aan de start van de sprint worden alle user stories voor de volgende sprint ingepland. Dit gebeurd tijdens de sprintplanning.
         - **Daily standup** Dit is de dagelijkse meeting waarin de voortgang wordt besproken. Hierbij worden de volgende dingen verteld: "Wat heb ik gisteren gedaan?", "Wat ga ik vandaag doen?" en "Heb ik problemen?". Iedereen moet dit vertellen. Als iedereen dit heeft verteld is de meeting klaar. Bij deze meeting is het de bedoeling dat je staat (daarom heet het ook standup). Hierdoor is het een korte meeting van maximaal 15 minuten.
+    - **MVP** Het Minimal Viable Product is het minst mogelijke wat toegestaan wordt. Het is dan ook de doel om dit minimaal te halen. 
 
 
 
@@ -209,7 +217,7 @@ Tijdens mijn studie heb ik met veel verschillende talen gewerkt. Dit maakte het 
 - indentation
 - Soms haalde ik talen door elkaar
 
-Dit zijn natuurlijk simpele dingen. De ingewikkelde dingen werden goed uitgelegd en kon door de videos te kijken makkelijk worden gemaakt. Ik was verrast hoe eenvoudig het was om een machine learning functie aan te roepen. Ik kon dan ook sneller dingen 
+Dit zijn natuurlijk simpele dingen. De ingewikkelde dingen werden goed uitgelegd en kon door de videos te kijken makkelijk worden gemaakt. Ik was verrast hoe eenvoudig het was om een machine learning functie aan te roepen. Ik kon dan ook sneller dingen dingen doen dan ik eigenlijk had verwacht.
 
 
 ## Reflection and evaluation
