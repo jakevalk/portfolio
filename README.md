@@ -242,7 +242,7 @@ Tijdens het proces kwam ik er achter dat er sommige dingen getagd waren waar eig
 
 Ik heb tijdens het project meermaals de NaN waardes verwijderd. Dit was gelukkig alleen maar bij categorische variabelen. dit kon dus makkelijk worden opgelost met np.fillna(0). Ik had hier dus geen problemen mee.
 
-Het is belangrijk dat de data gebalanceerd is. Dit was aan het begin uiteraard niet het geval. Omdat er meer negatieve waardes dan positieve waardes zijn heb ik voor een oversampler gekozen. Deze sampler kopieert willekeurige positieve samples zodat er een evenwicht komt. ![code voor sampler](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/sampler%20image.png)
+Het is belangrijk dat de data gebalanceerd is. Dit was aan het begin uiteraard niet het geval. Omdat er meer negatieve waardes dan positieve waardes zijn heb ik voor een oversampler gekozen. Deze sampler kopieert willekeurige positieve samples zodat er een evenwicht komt. Deze sampler heeft de totale aantal positieve waardes van 53 naar 4747 verhoogd. ![code voor sampler](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/sampler%20image.png)
 ## Data explanation
 
 Bij project werden er twee datasets gebruikt. hierbij bestond één van de datasets uit de data die kwam van de rolstoel (IMU data) en was de andere dataset een lijst waarin bij elke actie stond wie wat gedaan heeft, dit was de video data. Hieronder vertel ik er meer over.
@@ -295,11 +295,13 @@ Mede omdat ik ICT doe zijn mijn communicatie skills niet perfect. Ik heb hier ti
 
 ## Presentations
 Presenteren is niet één van mijn sterkste punten. Dit is natuurlijk voor een ICT student niet heel gek maar het is wel iets waar ik beter in wilde worden. Om hier meer ervaring in op te doen heb ik er voor gekozen om meerdere presentaties te geven. Zowel voor de klas als voor enkel het projectgroepje. De presentaties die ik heb gegeven zijn: 
-- [presentatie 1](https://github.com/jakevalk/portfolio/blob/main/presentaties/WheelsSprint%2004102021%20v1.pdf) 
-- [presentatie 2](https://google.com) 
+- [presentatie internal 4 oktober](https://github.com/jakevalk/portfolio/blob/main/presentaties/WheelsSprint%2004102021%20v1.pdf) 
+- [presentatie internal 22 november](https://google.com) 
+- [presentatie internal 20 december (Samen met Alex)]()
 
-Ik was van plan om nog een derde presentatie te geven. Dit heb ik helaas niet kunnen doen. Ik had de dag ervoor een hersenschudding gekregen. Omdat ik een dag complete rust nodig had moest een groepsgenoot de presentatie in mijn plaats doen.
-- [presentatie](https://google.com)
+Ik was van plan om nog een vierde presentatie te geven. Dit heb ik helaas niet kunnen doen. Ik had de dag ervoor een hersenschudding gekregen. Omdat ik een dag complete rust nodig had moest een groepsgenoot de presentatie in mijn plaats doen.
+- [poging tot presentatie 6 november](https://google.com)
+
 
 
 ## Writing paper
