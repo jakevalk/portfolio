@@ -290,9 +290,9 @@ In totaal bevat de dataset 7 features en 808 rows.
 
 ## Data visualization (exploratory)
 
-Elke beweging heeft zijn eigen patroon. Het is alleen niet bekend in welke features dit zit. Daarom ben ik via trail and error de verschillende features gaan weergeven tijdens deze momenten. Hier kwam ik er achter dat bij de contact momenten de X en Y assen van bewogen. Omdat er eerst in één plot zowel de wheelrotation als de framerotation werd weergegeven heb ik besloten om dit op te splitsen. Het was anders niet te zien. Dit kan je in [deze notebook]() zien.
+Elke beweging heeft zijn eigen patroon. Het is alleen niet bekend in welke features dit zit. Daarom ben ik via trail and error de verschillende features gaan weergeven tijdens deze momenten. Hier kwam ik er achter dat bij de contact momenten de X en Y assen van bewogen. Omdat er eerst in één plot zowel de wheelrotation als de framerotation werd weergegeven heb ik besloten om dit op te splitsen. Het was anders niet te zien. Dit kan je in [deze notebook](https://github.com/jakevalk/portfolio/blob/main/Notebooks/Visualisation%20function%20Collision.ipynb) zien.
 
-Achteraf bleek dat dit klopte want uit een feature importance functie bleek dat frameRotationalX feature heel belangrijk was. ![feature importance]()
+Achteraf bleek dat dit klopte want uit een feature importance functie bleek dat frameRotationalX feature heel belangrijk was. ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/featureimportance.png)
 
 
 
