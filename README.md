@@ -39,7 +39,7 @@ Bij ons project was het de bedoeling dat we doormiddel van IMU data verschillend
     - Can movements be used to predict fatigue?
     - Can movements be used to detect overload?
 
-Dit is te vinden in onze [plan van aanpak](planvanaanpak.nl).
+Dit is te vinden in onze [plan van aanpak](https://github.com/jakevalk/portfolio/blob/main/Documenten/Plan%20of%20approach.pdf).
 
 ## Evaluation
 
@@ -82,7 +82,7 @@ Tijdens het project hebben we verschillende retrospectives gehad. Hierin konden 
 Ik heb tijdens het project aan vele verschillende modellen gewerkt. Dit heb ik gedaan om veel ervaring te krijgen binnen de stof. Dit heb ik uiteraard allemaal met een reden gedaan.
 ## Selecting a Model
 
-Binnen het project was het al vrij snel duidelijk dat we een classification model nodig haddden. Dit kwam omdat we verschillende datapunten als sprints moesten classificeren. De no free lunch theorem[[4]](#4) stelt dat je niet van te voren kan weten welke model goed is, daarom wilde we als groep meerdere dingen proberen. Aan de start van het project hebben ik en twee groepsgenoten ieder model genomen en deze toegepast op de dataset. Dit deden we om een model op een echte dataset te gebruiken. Hierin zouden we dan achter mogelijke problemen kunnen komen. De modellen waarvoor we gekozen hadden waren:
+Binnen het project was het al vrij snel duidelijk dat we een classification model nodig hadden. Dit kwam omdat we verschillende datapunten als sprints moesten classificeren. De no free lunch theorem[[4]](#4) stelt dat je niet van te voren kan weten welke model goed is, daarom wilde we als groep meerdere dingen proberen. Aan de start van het project hebben ik en twee groepsgenoten ieder model genomen en deze toegepast op de dataset. Dit deden we om een model op een echte dataset te gebruiken. Hierin zouden we dan achter mogelijke problemen kunnen komen. De modellen waarvoor we gekozen hadden waren:
 
 - KNearestNeighbours
 - Gaussian Naive Bayes
@@ -101,7 +101,9 @@ Alle modellen waren uiteindelijk zeer accuraat. Dit kwam mede doordat we een ext
 
 ## Configuring a Model
 
-
+Het is belangrijk dat de juiste features en hyperparameters gebruikt worden. Bij de contact momenten heb ik een RFC gebruikt. Om de juiste features te krijgen heb ik verschillende features uitgeprobeerd. Ik heb vervolgens een feature importance functie over het model laten lopen. Dit rangschikte features op volgorde van effectiviteit. ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/featureimportance.png)
+ Ik heb hier de beste features uitgeprobeerd.
+ Ik heb vervolgens het model door een gridsearch [[6]](#6) heen gehaald. Dit gaf de optimale hyperparamaters.
 
 ## Training a model
 
@@ -462,7 +464,7 @@ Ook toen ik mijn hersenschudding hadden de groepsgenoten veel begrip en gaven mi
 
 # 5 https://plato.stanford.edu/archives/spr2019/entries/bayes-theorem/
 
-# 6 https://www.mdpi.com/1424-8220/19/10/2237
+# 6 https://ieeexplore.ieee.org/abstract/document/9649207
 
 # 7 https://www.mdpi.com/1424-8220/14/4/6819
 
@@ -475,3 +477,5 @@ Ook toen ik mijn hersenschudding hadden de groepsgenoten veel begrip en gaven mi
 # 11 https://www.mdpi.com/1424-8220/14/4/6891/htm
 
 # 12 https://www.sciencedirect.com/science/article/pii/S1877705815014502
+
+# 13 https://www.mdpi.com/1424-8220/19/10/2237
