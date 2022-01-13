@@ -101,18 +101,31 @@ Alle modellen waren uiteindelijk zeer accuraat. Dit kwam mede doordat we een ext
 
 ## Configuring a Model
 
-Het is belangrijk dat de juiste features en hyperparameters gebruikt worden. Bij de contact momenten heb ik een RFC gebruikt. Om de juiste features te krijgen heb ik verschillende features uitgeprobeerd. Ik heb vervolgens een feature importance functie over het model laten lopen. Dit rangschikte features op volgorde van effectiviteit. ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/featureimportance.png)
+
+Het is belangrijk dat de juiste features en hyperparameters gebruikt worden. 
+Bij de contact momenten heb ik een RFC gebruikt. Dit is een veel voorkomende model van scikit-learn.  Om de juiste features te krijgen heb ik verschillende features uitgeprobeerd. Ik heb vervolgens een feature importance functie over het model laten lopen. Dit rangschikte features op volgorde van effectiviteit. ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/featureimportance.png)
  Ik heb hier de beste features uitgeprobeerd.
  Ik heb vervolgens het model door een gridsearch [[6]](#6) heen gehaald. Dit gaf de optimale hyperparamaters.
 
 ## Training a model
 
-### To DO
+Het trainen van het model voor de contact momenten heeft mij veel problemen gegeven. Om dit werkend te kunnen krijgen heb ik een hoop technieken moeten gebruiken om dit relatief goed te maken. De dingen die ik gedaan heb zijn:
+- Data balanceren. 
+- Gridsearch toepassen om de hyperparameters te krijgen.
+- Totaal aantal features verminderen.
+- Data in 75% en 25% opgesplitst.
+
+Bij de sprints was het zo berekend dat het bij een bepaalde situatie boven een bepaald niveau moest zijn. Dit was qua tijd bij de contact momenten niet mogelijk. Hierom is ervoor gekozen om de data rondom de getagde gebeurtenis te gebruiken. Omdat een contact heel veel van elkaar verschilt heeft dit waarschijnlijk voor problemen gezorgd. Ik ben dan ook van mening dat het model goed gemaakt is maar het probleem bij de data ligt. Dit maakt het uiteraard niet goed. 
+
+Dit is de [notebook]().
 
 ## Evaluating a model
 
-### To DO
+Het is belangrijk dat een model goed geevalueerd wordt. Indien dit niet zorgvuldig gedaan wordt is er een grote kans dat een model eigenlijk niet goed is. Bij mij is het opgevallen dat tijdens de interne presentaties klasgenoten het enkel hadden over de accuracy. Ik ben er vanzelf achter gekomen dat de accuracy bij een complexe dataset eigenlijk helemaal niks zegt. Mijn RFC geeft een accuracy van 0.98. Dit klinkt alsof het een hele goede model is. Dit is het namelijk niet. Als je naar de confusion matrix kijk zie je iets heel anders:
+![confusion matrix]()
+Het is eigenlijk totaal niet goed. Dit is waarom er ook naar de precision en recall moet worden gekeken. De RNN van een groepsgenoot die over de sprints heeft bijvoorbeeld een accuracy van 0.90, maar wel een precision van 0.86 en een recall van 0.91. De accuracy is dus wel wat lager, maar het model is wel stukken beter. Het voorspelt namelijk wel degelijk iets.
 
+Het is daarom belangrijk om een confusion matrix  te gebruiken. Als ik dit niet had gedaan was ik waarschijnlijk heel trots geweest op een model dat eigenlijk niet werkt.
 ## Visualizing the outcome of a model (explanatory)
 
 ### To DO
