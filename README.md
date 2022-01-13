@@ -73,7 +73,14 @@ Binnen het project was het al vrij snel duidelijk dat we een classification mode
 - Gaussian Naive Bayes
 - Decision Tree
 
-Hier bij had ik toen zelf voor de Gaussian Naive Bayes gekozen. Dit heb ik gedaan omdat GNB goed werkt met 
+Hier bij had ik toen zelf voor de Gaussian Naive Bayes gekozen. Dit heb ik gedaan omdat GNB goed werkt met tijdsgebonden data. 
+
+De resultaten per model was:
+| Model | Resultaat  |
+|---	|---	|
+|KnearestNeighbours	|0.9997976349230234|
+|Gaussian Naive Bayes|0.9950939440953502|
+|Decision Tree|0.9999974055759362|
 
 ## Configuring a Model
 ## Training a model
