@@ -268,7 +268,7 @@ Het is belangrijk dat de data gebalanceerd is. Dit was aan het begin uiteraard n
 Bij project werden er twee datasets gebruikt. hierbij bestond één van de datasets uit de data die kwam van de rolstoel (IMU data) en was de andere dataset een lijst waarin bij elke actie stond wie wat gedaan heeft, dit was de video data. Hieronder vertel ik er meer over.
 
 #### **IMU Data**
-De IMU data is de dataset dat van de rolstoel afkomt. Het is een lineare dataset. De IMU heeft een gyroscoop in zich zitten die voor gegevens zorgt als: RotationSpeed en RotationAngle. Dit is voor alle drie de assen (x,y,x). Deze data is er voor zowel het frame als de rechterwiel. Doormiddel van deze data kunnen andere dingen berekend worden zoals: snelheid en acceleratie. Dit was berekend door Rienk [[3]](#3). In totaal bevat de dataset 18 features en heeft 860409 rows.
+De IMU data is de dataset dat van de rolstoel afkomt. Het is een lineare dataset. De IMU heeft een gyroscoop in zich zitten die voor gegevens zorgt als: RotationSpeed en RotationAngle. Dit is voor alle drie de assen (x,y,x). Deze data is er voor zowel het frame als de rechterwiel. Doormiddel van deze data kunnen andere dingen berekend worden zoals: snelheid en acceleratie. Dit was berekend door Rienk [[3]](#3). In totaal bevat de dataset 16 features en heeft 860409 rows.
 
 #### **Video Data**
 Voor deze dataset heeft een stagiair naar een wedstrijd gekeken en bij elke actie dit genoteerd. Dit heeft hij in een speciaal programma gedaan. Hier kwam vervolgens een csv bestand uit. De acties die hij heeft genoteerd zijn:
@@ -290,9 +290,9 @@ In totaal bevat de dataset 7 features en 808 rows.
 
 ## Data visualization (exploratory)
 
-### To DO
+Elke beweging heeft zijn eigen patroon. Het is alleen niet bekend in welke features dit zit. Daarom ben ik via trail and error de verschillende features gaan weergeven tijdens deze momenten. Hier kwam ik er achter dat bij de contact momenten de X en Y assen van bewogen. Omdat er eerst in één plot zowel de wheelrotation als de framerotation werd weergegeven heb ik besloten om dit op te splitsen. Het was anders niet te zien. Dit kan je in [deze notebook]() zien.
 
-
+Achteraf bleek dat dit klopte want uit een feature importance functie bleek dat frameRotationalX feature heel belangrijk was. ![feature importance]()
 
 
 
