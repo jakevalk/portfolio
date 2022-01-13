@@ -167,13 +167,13 @@ Ik heb tijdens het project meermaals de NaN waardes verwijderd. Dit was gelukkig
 Bij project werden er twee datasets gebruikt. hierbij bestond één van de datasets uit de data die kwam van de rolstoel (IMU data) en was de andere dataset een lijst waarin bij elke actie stond wie wat gedaan heeft, dit was de video data. Hieronder vertel ik er meer over.
 
 #### **IMU Data**
-
+De IMU data is de dataset dat van de rolstoel afkomt. Het is een lineare dataset. De IMU heeft een gyroscoop in zich zitten die voor gegevens zorgt als: RotationSpeed en RotationAngle. Dit is voor alle drie de assen (x,y,x). Deze data is er voor zowel het frame als de rechterwiel. Doormiddel van deze data kunnen andere dingen berekend worden zoals: snelheid en acceleratie. Dit was berekend door Rienk [[3]](#3). In totaal bevat de data set 18 features en heeft 860409 rows.
 
 #### **Video Data**
 Voor deze dataset heeft een stagiair naar een wedstrijd gekeken en bij elke actie dit genoteerd. Dit heeft hij in een speciaal programma gedaan. Hier kwam vervolgens een csv bestand uit. De acties die hij heeft genoteerd zijn:
 
 - ball posesion
-- contact zelf gestopd
+- contact zelf gestopt
 - contact zelf veroorzaakt
 - contact met eigen team
 - fast break
@@ -184,6 +184,9 @@ Voor deze dataset heeft een stagiair naar een wedstrijd gekeken en bij elke acti
 
 Hierbij staat er per elke actie aangegeven op welk moment dit plaatsvindt en hoelang het duurt.  
 bij alles behalve fast break, fast defense, score en ball possesion staat er aangegeven welke speler dit is. Want bij de andere gaat het om de hele team.
+
+In totaal bevat de data set 7 features en 808 rows. 
+
 ## Data visualization (exploratory)
 
 # Communication
