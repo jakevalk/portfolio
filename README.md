@@ -17,7 +17,7 @@ Hallo, ik ben Jake van der Valk en ik studeer Software Engineering. Tijdens mijn
 - [Data preprocessing](#Data-preprocessing)
 - [Communication](#Communication)
 - [DataCamp & Reflection and evaluation](#DataCamp-&-Reflection-and-evaluation)
-- [Bronnen](#Bronnen)
+- [Bibliografie](#bibliografie)
 
 
 
@@ -154,8 +154,24 @@ Binnen sport wil men ook alles weten. Het is dan ook logisch dat sportteams alle
 Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebruiker merkt hier weinig van. Veel universiteiten hebben dan ook een research afdeling speciaal voor rolstoeltechnieken. Omdat het vrij eenvoudig is om te meten is het makkelijker om hier voortgang in te hebben. Omdat deze rolstoelen heel veel data verzamelen zou het mogelijk zijn om hier data science op te gebruiken. Dit is waar wij nu te maken mee hebben.
 ## Literature research
 
-### To DO
+Bij deze minor is er heel veel research gedaan. Hier heb ik verschillende soorten literatuur voor gebruikt. Dit verschilt van websites tot research papers. Hieronder zal ik er meer over vertellen:
 
+- **Websites**
+Bij dit project is het meerdere keren voor gekomen dat ik snel iets wilde opzoeken. Op het internet staan veel websites waar dingen summier staan uitgelegd. Deze websites refereren vaak aan research papers. Of het is de website van een library (pandas of numpy). Dit zijn websites waar ik vaak gebruik van heb gemaakt:
+    - *Tutorial sites*
+        - https://machinelearningmastery.com
+        - https://towardsdatascience.com/
+        - https://curiousily.com/posts/build-your-first-neural-network-with-pytorch/
+        - https://www.datacamp.com
+    - *Library sites*
+        - https://pandas.pydata.org/docs/user_guide/index.html#user-guide
+        - https://scikit-learn.org/stable/user_guide.html
+        - https://pytorch.org/docs/stable/index.html
+        - https://seaborn.pydata.org/introduction.html
+- **Les stof**
+Indien ik vast liep kon ik best vaak geholpen worden door de lesstof. Vaak waren de powerpoints een snelle bron van informatie. De notebooks waren soms helpvol bij de syntax gerelateerde problemen. Het was some fijn om te zien hoe het werkte.
+- **Research papers**
+Als ik langere research deed dan maakte ik vaak gebruik van research papers. Deze meeste papers vond ik via google scholar of via referenties. De research papers staan onderaan in dit document (klik [hier](#bibliografie) om er snel heen te gaan).
 ## Explanation of Terminology, jargon and definitions
 
 - **Datasets** Een dataset is een tabel waarin data staat. Deze bestaat uit rijen en kolommen. Hierbij zijn de rijen de verschillende datapunten en de kolommen de features. de datasets worden in objecten ingeladen waarna de modellen hun werk hier op kunnen doen.
@@ -433,7 +449,7 @@ Ook toen ik mijn hersenschudding hadden de groepsgenoten veel begrip en gaven mi
 
 
 
-# Bronnen
+# Bibliografie
 # 1 https://www.researchgate.net/profile/Lucy-Parrington-2/publication/311166052_The_impact_of_technology_on_elite_sports_performance/links/584f3b1408aed95c25099824/The-impact-of-technology-on-elite-sports-performance.pdf
 
 # 2 https://simplifaster.com/articles/use-gps-technology-team-sports/
@@ -443,3 +459,17 @@ Ook toen ik mijn hersenschudding hadden de groepsgenoten veel begrip en gaven mi
 # 4 https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf
 
 # 5 https://plato.stanford.edu/archives/spr2019/entries/bayes-theorem/
+
+# 6 https://www.mdpi.com/1424-8220/19/10/2237
+
+# 7 https://www.mdpi.com/1424-8220/14/4/6819
+
+# 8 https://www.mdpi.com/1424-8220/21/8/2601
+
+# 9 https://www.koreascience.or.kr/article/JAKO201232155110113.pdf
+
+# 10 https://www.mdpi.com/1424-8220/16/11/1847/htm
+
+# 11 https://www.mdpi.com/1424-8220/14/4/6891/htm
+
+# 12 https://www.sciencedirect.com/science/article/pii/S1877705815014502
