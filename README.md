@@ -295,12 +295,12 @@ Mede omdat ik ICT doe zijn mijn communicatie skills niet perfect. Ik heb hier ti
 
 ## Presentations
 Presenteren is niet één van mijn sterkste punten. Dit is natuurlijk voor een ICT student niet heel gek maar het is wel iets waar ik beter in wilde worden. Om hier meer ervaring in op te doen heb ik er voor gekozen om meerdere presentaties te geven. Zowel voor de klas als voor enkel het projectgroepje. De presentaties die ik heb gegeven zijn: 
-- [presentatie internal 4 oktober](https://github.com/jakevalk/portfolio/blob/main/presentaties/WheelsSprint%2004102021%20v1.pdf) 
-- [presentatie internal 22 november](https://google.com) 
-- [presentatie internal 20 december (Samen met Alex)]()
+- [presentatie internal 4 oktober](https://github.com/jakevalk/portfolio/blob/main/presentaties/Internal%20presentation%204%20okt.pdf) 
+- [presentatie internal 22 november](https://github.com/jakevalk/portfolio/blob/main/presentaties/Internal%20presentation%2011%20nov.pdf) 
+- [presentatie internal 20 december (Samen met Alex)](https://github.com/jakevalk/portfolio/blob/main/presentaties/Internal%20presentation%2020%20dec.pdf)
 
 Ik was van plan om nog een vierde presentatie te geven. Dit heb ik helaas niet kunnen doen. Ik had de dag ervoor een hersenschudding gekregen. Omdat ik een dag complete rust nodig had moest een groepsgenoot de presentatie in mijn plaats doen.
-- [poging tot presentatie 6 november](https://google.com)
+- [poging tot presentatie 6 november](https://github.com/jakevalk/portfolio/blob/main/presentaties/Internal%20presentation%206%20nov.pdf)
 
 
 
