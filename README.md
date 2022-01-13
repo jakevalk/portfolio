@@ -231,14 +231,18 @@ In het begin van het project was de dataset compleet onduidelijk. Om dit duideli
 
 Om een beter beeld te krijgen ben ik begonnen met experimenteren met de dataset. Dit heb ik toen gedaan omdat er tijdens dit proces verschillende problemen opkomen dat is dan dan vervolgens worden verwerkt. [zie hier er meer over](https://github.com/jakevalk/portfolio/blob/main/Notebooks/data%20exploration.ipynb)
 
+Voor de contact momenten heb ik een functie gebruikt om deze te weergeven. Deze functie is geschreven door een groepsgenoot. Ik heb hier wel dingen moeten aanpassen om dit voor mijn doel te kunnen gebruiken. Het was hier de bedoeling om een patroon te vinden in de grafieken van de contact momenten. Het was hier vrij snel duidelijk dat er een patroon in zit. De patroon is wel steeds licht verschillend. Dit komt doordat bijna elke contact moment anders is. Bij bijna alle contact momenten was er een schudding in het frame en plotselinge snelheidsverschil. Het zou dus mogelijk moeten zijn om hier een model voor te schrijven.
+
 ## Data cleansing
 
 De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in de model gestopt. Dit kan je [hier](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/DataCleaning%20time%20fix.pdf) zien.
 
+Tijdens het proces kwam ik er achter dat er sommige dingen getagd waren waar eigenlijk niks gebeurd. Als er bij de gevallen al iets gebeurde was het extreem licht. Dit was dusdanig licht dat er niks te zien was in de data. Deze datapunten zorgden er dus voor dat verkeerde data als positief werd voorspelt. Het moest dus worden verwijderd. Uiteindelijk waren van de 30 getagde contact momenten maar 19 overgebleven. Uiteindelijk klopte dus 42,11% niet.
 ## Data preparation
 
 Ik heb tijdens het project meermaals de NaN waardes verwijderd. Dit was gelukkig alleen maar bij categorische variabelen. dit kon dus makkelijk worden opgelost met np.fillna(0). Ik had hier dus geen problemen mee.
 
+Het is belangrijk dat de data gebalanceerd is. Dit was aan het begin uiteraard niet het geval. Omdat er meer negatieve waardes dan positieve waardes zijn heb ik voor een oversampler gekozen. Deze sampler kopieert willekeurige positieve samples zodat er een evenwicht komt. ![code voor sampler](ttps://github.com/jakevalk/portfolio/blob/main/afbeeldingen/sampler%image.png)
 ## Data explanation
 
 Bij project werden er twee datasets gebruikt. hierbij bestond één van de datasets uit de data die kwam van de rolstoel (IMU data) en was de andere dataset een lijst waarin bij elke actie stond wie wat gedaan heeft, dit was de video data. Hieronder vertel ik er meer over.
