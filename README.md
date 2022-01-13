@@ -63,29 +63,80 @@ Ik heb tijdens het project veel met scrum gewerkt. Ik was namelijk de scrummaste
 
 Tijdens het project hebben we verschillende retrospectives gehad. Hierin konden we allemaal vertellen waar we mee zaten. In het begin schreef ik dit allemaal op in een word document. Ik kwam er vrij snel achter dat dit niet effectief was. Ik moest namelijk steeds alles doen. Hierdoor moesten mensen soms iets twee keer zeggen. Hierdoor besloot ik om een betere methode te vinden. Ik vond toen een website die dit goed kon. Hier kon elk groepslid zelf dingen toevoegen en zag het er ook een stuk beter uit. Dit werd goed ontvangen.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Predictive Analytics
 Ik heb tijdens het project aan vele verschillende modellen gewerkt. Dit heb ik gedaan om veel ervaring te krijgen binnen de stof. Dit heb ik uiteraard allemaal met een reden gedaan.
 ## Selecting a Model
 
-Binnen het project was het al vrij snel duidelijk dat we een classification model nodig haddden. Dit kwam omdat we verschillende datapunten als sprints moesten classificeren. Aan de start van het project hebben ik en twee groepsgenoten ieder model genomen en deze toegepast op de dataset. Dit deden we om een model op een echte dataset te gebruiken. Hierin zouden we dan achter mogelijke problemen kunnen komen. De modellen waarvoor we gekozen hadden waren:
+Binnen het project was het al vrij snel duidelijk dat we een classification model nodig haddden. Dit kwam omdat we verschillende datapunten als sprints moesten classificeren. De no free lunch theorem[[4]](#4) stelt dat je niet van te voren kan weten welke model goed is, daarom wilde we als groep meerdere dingen proberen. Aan de start van het project hebben ik en twee groepsgenoten ieder model genomen en deze toegepast op de dataset. Dit deden we om een model op een echte dataset te gebruiken. Hierin zouden we dan achter mogelijke problemen kunnen komen. De modellen waarvoor we gekozen hadden waren:
 
 - KNearestNeighbours
 - Gaussian Naive Bayes
 - Decision Tree
 
-Hier bij had ik toen zelf voor de Gaussian Naive Bayes gekozen. Dit heb ik gedaan omdat GNB goed werkt met tijdsgebonden data. 
+Hier bij had ik toen zelf voor de Gaussian Naive Bayes gekozen. Dit heb ik gedaan omdat GNB goed werkt met tijdsgebonden data. Het was de bedoeling van onze proef om verschillende soorten modellen te gebruiken. Een GNB is één van de simpelste Bayes modellen. De Bayes theorie [[5]](#5) is een formule dat voorspelt dat de kans op een gebeurtenis gebaseerd is op de kennis over condities die te maken hebben met deze gebeurtenis. Ik was van mening dat dit bij sprints ook zou kunnen helpen.
 
 De resultaten per model was:
-| Model | Resultaat  |
+| Model | accuracy  |
 |---	|---	|
 |KnearestNeighbours	|0.9997976349230234|
 |Gaussian Naive Bayes|0.9950939440953502|
 |Decision Tree|0.9999974055759362|
 
+Alle modellen waren uiteindelijk zeer accuraat. Dit kwam mede doordat we een extreem simpele target variabel hadden gebruikt. Uiteindelijk hebben we in het model een decision tree gebruikt. Dit had ik toen van te vooren niet verwacht omdat het zo simpel is. De Occams Razor theorie stelt dat de simpelste oplosing vaak het best werkt. Toendertijd wist ik nog niet van deze theorie (maar nu wel :) ).
+
 ## Configuring a Model
+
+
+
 ## Training a model
+
+### To DO
+
 ## Evaluating a model
+
+### To DO
+
 ## Visualizing the outcome of a model (explanatory)
+
+### To DO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Domain knowledge
 Tijdens mijn studie ben ik licht in contact gekomen met Artificial Intelligence. Ik heb dit toen als leuk ervaren. Ik wilde hier dan ook meer van leren. Dit was ook een van de redenen dat ik voor deze minor had gekozen. Ik heb tijdens deze minor veel geleerd. Hieronder zal ik hier meer over vertellen.
@@ -103,14 +154,15 @@ Binnen sport wil men ook alles weten. Het is dan ook logisch dat sportteams alle
 Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebruiker merkt hier weinig van. Veel universiteiten hebben dan ook een research afdeling speciaal voor rolstoeltechnieken. Omdat het vrij eenvoudig is om te meten is het makkelijker om hier voortgang in te hebben. Omdat deze rolstoelen heel veel data verzamelen zou het mogelijk zijn om hier data science op te gebruiken. Dit is waar wij nu te maken mee hebben.
 ## Literature research
 
-
+### To DO
 
 ## Explanation of Terminology, jargon and definitions
 
 - **Datasets** Een dataset is een tabel waarin data staat. Deze bestaat uit rijen en kolommen. Hierbij zijn de rijen de verschillende datapunten en de kolommen de features. de datasets worden in objecten ingeladen waarna de modellen hun werk hier op kunnen doen.
     - **Features** Een feature is een meetbaar stuk data dat gebruikt wordt voor de analyse. Denk hierbij aan dingen als: "tijd", "snelheid", "kosten", "actie" en leeftijd.
-- **Machine Learning**
+- **Machine Learning** Machine learning is een onderdeel van Artificial Intellegence. Hierbij maken algoritmes modellen die gebaseerd op data voorspellingen en beslissingen kunnen maken.
     - **Model**
+    Een model is het bestand dat getraind wordt om verschillende patronen te herkennnen.
         - **Classification** Bij classification wordt een label voorspelt op basis van de input. Het wordt gebruikt om verschillende objecten van elkaar te onderscheiden. Dit wordt vervolgens in categorieën gestopt. 
         Dit zijn classification models:
             - KNearestNeighbours
@@ -128,26 +180,44 @@ Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebrui
         - **Learning rate**
         - **Linear layers**
 - **Preprocessing** Om een model te gebruiken moet de data eerst goed verwerkt zijn. Als de dataset een rotzooi is zal het niet goed werken. Dit wordt gedaan om de effectiviteit van een model te verbeteren en/of om te zorgen dat de model überhaupt werkt. Dit kan gedaan worden met de volgende stappen:
-    - **Cleaning**
-    - **Scaling**
+    - **Cleaning** Vaak is een dataset een rotzooi. Het is daarom belangrijk dat de dataset wordt opgeschoond. Er zijn vaak waardes die niet kloppen of niet aanwezig zijn. Tijdens de cleaning zorg je ervoor dat de NaN waardes worden weggewerkt en dat de verkeerde data wordt opgelost.
+    - **Scaling** Het is belangrijk dat één soort feature niet op twee verschillende manieren wordt weergegeven. Eén centimeter is namelijk kleiner dan één inch. Het is daarom belangrijk om de data te schalen zodat één soort waarde niet onbedoeld de model beinvloed.
     - **Balancing** Indien de positieve en negatieve rows in een dataset niet goed gebalanceerd zijn zal de dataset minder goed werken. Als bijna alle rows negatief zijn zal de model zeggen dat alle rows negatief zijn. Dit wil je voorkomen. Er zijn meerdere manieren om dit te balanceren. Als er ongeveer even positieve als negatieve rows zijn zal dit een stuk beter werken.
     - **Numeric** Een model werkt niet goed met een combinatie van getallen en woorden. Indien beide voorkomen zal de model crashen. Dit is te voorkomen door het woord een getal aantewijzen. 
-    - **Outliers**
+    - **Outliers** Soms zijn er waardes die niet realistisch zijn. Als er bijvoorbeeld gemeten wordt dat een auto 400 km/h gaat klopt er iets niet. Dit zou het model kunnen verwarren. Dit wordt een outlier genoemd.
 - **Evaluation**
     - **Evaluation models**
     - **Confusion Matrix**
     - **Loss**
 - **Trackers**
     - **IMU**
-- **Rolstoelbasketbal**
-- **Scrum**
-    - **Scrummaster** De scrummaster is een persoon die er voor zorgt dat Scrum goed toegepast wordt. Hij lost hierbij mogelijke knelpunten op en zorgt ervoor dat de rest zich 100% op het project kan focussen.
+- **Scrum** Scrum is een werkmethode waarbij flexibel tot een eindproduct wordt gewerkt. Hierbij wordt er in korte stappen steeds werkende stukken software opgeleverd. Samenwerking is bij deze methode heel belangrijk.
+    - **Scrummaster** De scrummaster is een persoon die er voor zorgt dat Scrum goed toegepast wordt. Hij/zij lost hierbij mogelijke knelpunten op en zorgt ervoor dat de rest zich 100% op het project kan focussen.
     - **Sprint** De fase van een paar weken waarin men tot een tussenproduct komt. Deze fase duurt vaak twee weken en bevat zowel ontwerp, realisatie als testen. Bij een sprint wordt vaak een bord gebruikt met de volgende kolommen: To do, doing, done. Hierin plaatst men de user stories.
         - **User story** Een user story is iets dat gebruikt wordt om een wens te weergeven. Hierbij wordt een statement opgesteld die zo gaat: "Als {titel van persoon} wil ik dat {de wens} omdat {reden}". In een user story staat precies wat er moet gedaan zijn zodat de wens volbracht kan worden.
         - **Retrospective** Een retrospective is een meeting waarin over de afgelopen sprint wordt gereflecteerd. Elk groepslid krijgt hierin de kans om zijn mening over de sprint te geven. Hierbij wordt met drie kolommen gewerkt: Start, keep doing en stop. In start worden alle punten gezet die ze nieuw willen zien. Keep doing zijn de punten die goed gaan. En stop zijn de punten waarmee gestopt moet worden. Als men dit goed doet zal het een hoop irritaties verkomen.
         - **Sprint planning** Aan de start van de sprint worden alle user stories voor de volgende sprint ingepland. Dit gebeurd tijdens de sprintplanning.
         - **Daily standup** Dit is de dagelijkse meeting waarin de voortgang wordt besproken. Hierbij worden de volgende dingen verteld: "Wat heb ik gisteren gedaan?", "Wat ga ik vandaag doen?" en "Heb ik problemen?". Iedereen moet dit vertellen. Als iedereen dit heeft verteld is de meeting klaar. Bij deze meeting is het de bedoeling dat je staat (daarom heet het ook standup). Hierdoor is het een korte meeting van maximaal 15 minuten.
     - **MVP** Het Minimal Viable Product is het minst mogelijke wat toegestaan wordt. Het is dan ook de doel om dit minimaal te halen. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -163,7 +233,7 @@ Om een beter beeld te krijgen ben ik begonnen met experimenteren met de dataset.
 
 ## Data cleansing
 
-De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in de model gestopt.
+De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in de model gestopt. Dit kan je [hier]() zien.
 
 ## Data preparation
 
@@ -196,6 +266,26 @@ In totaal bevat de data set 7 features en 808 rows.
 
 ## Data visualization (exploratory)
 
+### To DO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Communication
 Mede omdat ik ICT doe zijn mijn communicatie skills niet perfect. Ik heb hier tijdens deze minor veel op kunnen oefenen. 
 
@@ -217,6 +307,23 @@ Ik heb de de eerste versie van de recommendation geschreven. Ik heb hierbij de f
 Bij het data preparation stuk heb ik twee stukken samengevoegd. Deze waren eerder door andere geschreven. Ik heb deze stukken vloeiend laten lopen en heb deze verder uitgebreid. Dit is later door een ander overgenomen.
 #### problem description
 Na de eerste feedback ronden kwamen we er als groep achter dat het problem description gedeelte moest worden vernieuwd. Ik heb dit toen samen met Alex gedaan. We hebben de problem description opnieuw geschreven en nieuwe research (sub)questions geformuleerd. De research question is op een later moment nog verder veranderd. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # DataCamp & Reflection and evaluation
 ## DataCamp
@@ -323,3 +430,7 @@ Ook toen ik mijn hersenschudding hadden de groepsgenoten veel begrip en gaven mi
 # 2 https://simplifaster.com/articles/use-gps-technology-team-sports/
 
 # 3 https://repository.tudelft.nl/islandora/object/uuid:d8cffad9-efaf-400b-8e36-5d8eb8becc86?collection=research
+
+# 4 https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf
+
+# 5 https://plato.stanford.edu/archives/spr2019/entries/bayes-theorem/
