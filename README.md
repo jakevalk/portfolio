@@ -4,7 +4,7 @@ Studentnummer: 18064396
 
 Leraren: J. Vuurens, R. Vermeij en T. Andrioli
 
-Project: Wheels
+Project: [Wheels](https://github.com/jakevalk/portfolio/blob/main/Documenten/Research_Paper_Project_Wheels.pdf)
 
 ---
 
@@ -128,7 +128,9 @@ Het is eigenlijk totaal niet goed. Dit is waarom er ook naar de precision en rec
 Het is daarom belangrijk om een confusion matrix  te gebruiken. Als ik dit niet had gedaan was ik waarschijnlijk heel trots geweest op een model dat eigenlijk niet werkt.
 ## Visualizing the outcome of a model (explanatory)
 
-Het is belangrijk dat iets gevisualiseerd wordt. Een mens kijk namelijk liever naar grafische dingen dan naar tekst. Ik heb dan ook bepaalde dingen van het model gevisualiseerd. De belangrijkste hiervan is toch wel de confusion matrix. Hierin kan men in één oogopslag zien hoe goed het model is. Dit is de confusion matrix: ![confusion matrix](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/conf%20visualisation%20example.png) Ook heb ik de feature importance gevisualiseerd, het is nu mogelijk om in één oogopslag te zien wat de verhouding is tussen de features: ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/feature%20importance%20visualisation.png)
+Het is belangrijk dat iets gevisualiseerd wordt. Een mens kijk namelijk liever naar grafische dingen dan naar tekst. Ik heb dan ook bepaalde dingen van het model gevisualiseerd. De belangrijkste hiervan is toch wel de confusion matrix. Hierin kan men in één oogopslag zien hoe goed het model is. Dit is de confusion matrix: ![confusion matrix](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/conf%20visualisation%20example.png) 
+
+Ook heb ik de feature importance gevisualiseerd, het is nu mogelijk om in één oogopslag te zien wat de verhouding is tussen de features: ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/feature%20importance%20visualisation.png)
 
 
 
@@ -234,27 +236,6 @@ Als ik langere research deed dan maakte ik vaak gebruik van research papers. Dez
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Data preprocessing
 Tijdens het project heb ik veel met modellen gewerkt. Dit is zowel tijdens de prototype fase gebeurt als bij de "echte" project.
 
@@ -305,21 +286,6 @@ In totaal bevat de dataset 7 features en 808 rows.
 Elke beweging heeft zijn eigen patroon. Het is alleen niet bekend in welke features dit zit. Daarom ben ik via trail and error de verschillende features gaan weergeven tijdens deze momenten. Hier kwam ik er achter dat bij de contact momenten de X en Y assen van bewogen. Omdat er eerst in één plot zowel de wheelrotation als de framerotation werd weergegeven heb ik besloten om dit op te splitsen. Het was anders niet te zien. Dit kan je in [deze notebook](https://github.com/jakevalk/portfolio/blob/main/Notebooks/Visualisation%20function%20Collision.ipynb) zien.
 
 Achteraf bleek dat dit klopte want uit een feature importance functie bleek dat frameRotationalX feature heel belangrijk was. ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/featureimportance.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Communication
@@ -464,28 +430,28 @@ Ook toen ik mijn hersenschudding hadden de groepsgenoten veel begrip en gaven mi
 
 
 # Bibliografie
-# 1 https://www.researchgate.net/profile/Lucy-Parrington-2/publication/311166052_The_impact_of_technology_on_elite_sports_performance/links/584f3b1408aed95c25099824/The-impact-of-technology-on-elite-sports-performance.pdf
+# 1 Giblin, G., Tor, E., & Parrington, L. (2016). The impact of technology on elite sports performance. Sensoria: A Journal of Mind, Brain & Culture, 12(2). https://doi.org/10.7790/sa.v12i2.436
 
-# 2 https://simplifaster.com/articles/use-gps-technology-team-sports/
+# 2 Stasulli, D. (z.d.). The Use of GPS Technology in Team Sports. Simplifaster.com. Geraadpleegd op 13 januari 2022, van https://simplifaster.com/articles/use-gps-technology-team-sports/
 
-# 3 https://repository.tudelft.nl/islandora/object/uuid:d8cffad9-efaf-400b-8e36-5d8eb8becc86?collection=research
+# 3 Van der Slikke, R., Mason, B., Berger, M., & Goosey-Tolfrey, V. (2017). Speed profiles in wheelchair court sports; comparison of two methods for measuring wheelchair mobility performance. Journal of Biomechanics, 65, 221–225. https://doi.org/10.1016/j.jbiomech.2017.10.040
 
-# 4 https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf
+# 4 Wolpert, D., & Macready, W. (1997). No free lunch theorems for optimization. IEEE Transactions on Evolutionary Computation, 1(1), 67–82. https://doi.org/10.1109/4235.585893
 
-# 5 https://plato.stanford.edu/archives/spr2019/entries/bayes-theorem/
+# 5 Joyce, James, "Bayes’ Theorem", The Stanford Encyclopedia of Philosophy (Spring 2019 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2019/entries/bayes-theorem/>.
 
-# 6 https://ieeexplore.ieee.org/abstract/document/9649207
+# 6 Pirjatullah, Kartini, D., Nugrahadi, D. T., Muliadi, & Farmadi, A. (2021). Hyperparameter Tuning using GridsearchCV on The Comparison of The Activation Function of The ELM Method to The Classification of Pneumonia in Toddlers. 2021 4th International Conference of Computer and Informatics Engineering (IC2IE). https://doi.org/10.1109/ic2ie53219.2021.9649207
 
-# 7 https://www.mdpi.com/1424-8220/14/4/6819
+# 7 Azevedo Coste, C., Sijobert, B., Pissard-Gibollet, R., Pasquier, M., Espiau, B., & Geny, C. (2014). Detection of Freezing of Gait in Parkinson Disease: Preliminary Results. Sensors, 14(4), 6819–6827. https://doi.org/10.3390/s140406819
 
-# 8 https://www.mdpi.com/1424-8220/21/8/2601
+# 8 Sczuka, K. S., Schneider, M., Bourke, A. K., Mellone, S., Kerse, N., Helbostad, J. L., Becker, C., & Klenk, J. (2021). Template-Based Recognition of Human Locomotion in IMU Sensor Data Using Dynamic Time Warping. Sensors, 21(8), 2601. https://doi.org/10.3390/s21082601
 
-# 9 https://www.koreascience.or.kr/article/JAKO201232155110113.pdf
+# 9 Lee, W. H., & Park, C. G. (2012). A Fault Detection Method of Redundant IMU Using Modified Principal Component Analysis. International Journal of Aeronautical and Space Sciences, 13(3), 398–404. https://doi.org/10.5139/ijass.2012.13.3.398
 
-# 10 https://www.mdpi.com/1424-8220/16/11/1847/htm
+# 10 Rawashdeh, S., Rafeldt, D., & Uhl, T. (2016). Wearable IMU for Shoulder Injury Prevention in Overhead Sports. Sensors, 16(11), 1847. https://doi.org/10.3390/s16111847
 
-# 11 https://www.mdpi.com/1424-8220/14/4/6891/htm
+# 11 Seel, T., Raisch, J., & Schauer, T. (2014). IMU-Based Joint Angle Measurement for Gait Analysis. Sensors, 14(4), 6891–6909. https://doi.org/10.3390/s140406891
 
-# 12 https://www.sciencedirect.com/science/article/pii/S1877705815014502
+# 12 Van der Slikke, R., Berger, M., Bregman, D., & Veeger, H. (2015). Wheel Skid Correction is a Prerequisite to Reliably Measure Wheelchair Sports Kinematics Based on Inertial Sensors. Procedia Engineering, 112, 207–212. https://doi.org/10.1016/j.proeng.2015.07.201
 
-# 13 https://www.mdpi.com/1424-8220/19/10/2237
+# 13 Yang, C. Y., Chen, P. Y., Wen, T. J., & Jan, G. E. (2019). IMU Consensus Exception Detection with Dynamic Time Warping—A Comparative Approach. Sensors, 19(10), 2237. https://doi.org/10.3390/s19102237
