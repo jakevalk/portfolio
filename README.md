@@ -117,12 +117,12 @@ Het trainen van het model voor de contact momenten heeft mij veel problemen gege
 
 Bij de sprints was het zo berekend dat het bij een bepaalde situatie boven een bepaald niveau moest zijn. Dit was qua tijd bij de contact momenten niet mogelijk. Hierom is ervoor gekozen om de data rondom de getagde gebeurtenis te gebruiken. Omdat een contact heel veel van elkaar verschilt heeft dit waarschijnlijk voor problemen gezorgd. Ik ben dan ook van mening dat het model goed gemaakt is maar het probleem bij de data ligt. Dit maakt het uiteraard niet goed. 
 
-Dit is de [notebook]().
+Dit is de [notebook](https://github.com/jakevalk/portfolio/blob/main/Notebooks/RandomForrestCLassifier.ipynb).
 
 ## Evaluating a model
 
 Het is belangrijk dat een model goed geevalueerd wordt. Indien dit niet zorgvuldig gedaan wordt is er een grote kans dat een model eigenlijk niet goed is. Bij mij is het opgevallen dat tijdens de interne presentaties klasgenoten het enkel hadden over de accuracy. Ik ben er vanzelf achter gekomen dat de accuracy bij een complexe dataset eigenlijk helemaal niks zegt. Mijn RFC geeft een accuracy van 0.98. Dit klinkt alsof het een hele goede model is. Dit is het namelijk niet. Als je naar de confusion matrix kijk zie je iets heel anders:
-![confusion matrix]()
+![confusion matrix](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/conf%20rfc.png)
 Het is eigenlijk totaal niet goed. Dit is waarom er ook naar de precision en recall moet worden gekeken. De RNN van een groepsgenoot die over de sprints heeft bijvoorbeeld een accuracy van 0.90, maar wel een precision van 0.86 en een recall van 0.91. De accuracy is dus wel wat lager, maar het model is wel stukken beter. Het voorspelt namelijk wel degelijk iets.
 
 Het is daarom belangrijk om een confusion matrix  te gebruiken. Als ik dit niet had gedaan was ik waarschijnlijk heel trots geweest op een model dat eigenlijk niet werkt.
