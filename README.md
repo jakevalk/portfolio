@@ -242,7 +242,7 @@ Tijdens het proces kwam ik er achter dat er sommige dingen getagd waren waar eig
 
 Ik heb tijdens het project meermaals de NaN waardes verwijderd. Dit was gelukkig alleen maar bij categorische variabelen. dit kon dus makkelijk worden opgelost met np.fillna(0). Ik had hier dus geen problemen mee.
 
-Het is belangrijk dat de data gebalanceerd is. Dit was aan het begin uiteraard niet het geval. Omdat er meer negatieve waardes dan positieve waardes zijn heb ik voor een oversampler gekozen. Deze sampler kopieert willekeurige positieve samples zodat er een evenwicht komt. ![code voor sampler](ttps://github.com/jakevalk/portfolio/blob/main/afbeeldingen/sampler%image.png)
+Het is belangrijk dat de data gebalanceerd is. Dit was aan het begin uiteraard niet het geval. Omdat er meer negatieve waardes dan positieve waardes zijn heb ik voor een oversampler gekozen. Deze sampler kopieert willekeurige positieve samples zodat er een evenwicht komt. ![code voor sampler](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/sampler%20image.png)
 ## Data explanation
 
 Bij project werden er twee datasets gebruikt. hierbij bestond één van de datasets uit de data die kwam van de rolstoel (IMU data) en was de andere dataset een lijst waarin bij elke actie stond wie wat gedaan heeft, dit was de video data. Hieronder vertel ik er meer over.
