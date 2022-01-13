@@ -175,10 +175,13 @@ Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebrui
         - **Overfitting**
             Bij overfitting is er sprake van dat de model te goed getraind is op de dataset. Dit is een probleem omdat het dan ook enkel werkt op die ene dataset. Hierdoor is de model niet gebruikbaar voor andere datasets. de model zal enkel de patronen uit de oude dataset herkennen. Dit is te verminderen door technieken als cross-validation te gebruiken.
         - **Underfitting** Bij underfitting is er sprake van een model dat niet heel erg goed is in het identificeren van een patroon in de data. Het is eigenlijk het tegenovergestelde van overfitting. Het betekend dat de model te simpel voor de data. Dit is oplosbaar door een nieuwe set features te gebruiken of gewoon een nieuwe model te gebruiken.
-    - **Neural Network**
+    - **Neural Network** een neural netwerk is een ander soort model. Dit soort model lijkt veel op de hersenen van een mens. Een NN bestaat uit meerdere lagen met nodes. Deze nodes hebben een input en een output. Iedere node kan een wiskundige berekening uitvoeren. Door deze nodes aan elkaar te koppelen kan de NN hele ingewikkelde dingen. Dit is vergelijkbaar met de mens.
         - **Epochs**
+        Bij het trainen van een NN maak je gebruik van een epoch. Bij één epoch wordt de model één keer getraind met de dataset. Het is de bedoeling dat er meerdere epochs zijn. Dit betekend dat er meerdere keren over de dataset heen wordt gegaan. in het geval dat er 300 epochs zijn zal de NN 300 keer de dataset zien.
         - **Learning rate**
+        De learning rate is de snelheid waarmee een NN leert. Als het laag is duurt het heel lang. Als het hoog is gaat het snel maar er is een kans dat de optimum niet bereikt wordt. 
         - **Linear layers**
+        Een NN bestaat uit 1 of meer lagen. Dit is waar de nodes in zitten. Des te meer lagen er zijn, des te complexer het wordt. Een NN met 3 lagen kan meer dan een NN met 1 laag. Het duurt wel langer om te trainen dan een NN met 1 laag.
 - **Preprocessing** Om een model te gebruiken moet de data eerst goed verwerkt zijn. Als de dataset een rotzooi is zal het niet goed werken. Dit wordt gedaan om de effectiviteit van een model te verbeteren en/of om te zorgen dat de model überhaupt werkt. Dit kan gedaan worden met de volgende stappen:
     - **Cleaning** Vaak is een dataset een rotzooi. Het is daarom belangrijk dat de dataset wordt opgeschoond. Er zijn vaak waardes die niet kloppen of niet aanwezig zijn. Tijdens de cleaning zorg je ervoor dat de NaN waardes worden weggewerkt en dat de verkeerde data wordt opgelost.
     - **Scaling** Het is belangrijk dat één soort feature niet op twee verschillende manieren wordt weergegeven. Eén centimeter is namelijk kleiner dan één inch. Het is daarom belangrijk om de data te schalen zodat één soort waarde niet onbedoeld de model beinvloed.
@@ -189,8 +192,7 @@ Bij rolstoelen is het vrij eenvoudig om er een tracker op te plaatsen. De gebrui
     - **Evaluation models**
     - **Confusion Matrix**
     - **Loss**
-- **Trackers**
-    - **IMU**
+- **IMU** Een IMU is een apparaat dat bestaat uit verschillende accelerometers en gyroscopen waarmee rotaties en krachten kunnen worden gemeten/uitgevoerd.
 - **Scrum** Scrum is een werkmethode waarbij flexibel tot een eindproduct wordt gewerkt. Hierbij wordt er in korte stappen steeds werkende stukken software opgeleverd. Samenwerking is bij deze methode heel belangrijk.
     - **Scrummaster** De scrummaster is een persoon die er voor zorgt dat Scrum goed toegepast wordt. Hij/zij lost hierbij mogelijke knelpunten op en zorgt ervoor dat de rest zich 100% op het project kan focussen.
     - **Sprint** De fase van een paar weken waarin men tot een tussenproduct komt. Deze fase duurt vaak twee weken en bevat zowel ontwerp, realisatie als testen. Bij een sprint wordt vaak een bord gebruikt met de volgende kolommen: To do, doing, done. Hierin plaatst men de user stories.
@@ -248,7 +250,7 @@ Het is belangrijk dat de data gebalanceerd is. Dit was aan het begin uiteraard n
 Bij project werden er twee datasets gebruikt. hierbij bestond één van de datasets uit de data die kwam van de rolstoel (IMU data) en was de andere dataset een lijst waarin bij elke actie stond wie wat gedaan heeft, dit was de video data. Hieronder vertel ik er meer over.
 
 #### **IMU Data**
-De IMU data is de dataset dat van de rolstoel afkomt. Het is een lineare dataset. De IMU heeft een gyroscoop in zich zitten die voor gegevens zorgt als: RotationSpeed en RotationAngle. Dit is voor alle drie de assen (x,y,x). Deze data is er voor zowel het frame als de rechterwiel. Doormiddel van deze data kunnen andere dingen berekend worden zoals: snelheid en acceleratie. Dit was berekend door Rienk [[3]](#3). In totaal bevat de data set 18 features en heeft 860409 rows.
+De IMU data is de dataset dat van de rolstoel afkomt. Het is een lineare dataset. De IMU heeft een gyroscoop in zich zitten die voor gegevens zorgt als: RotationSpeed en RotationAngle. Dit is voor alle drie de assen (x,y,x). Deze data is er voor zowel het frame als de rechterwiel. Doormiddel van deze data kunnen andere dingen berekend worden zoals: snelheid en acceleratie. Dit was berekend door Rienk [[3]](#3). In totaal bevat de dataset 18 features en heeft 860409 rows.
 
 #### **Video Data**
 Voor deze dataset heeft een stagiair naar een wedstrijd gekeken en bij elke actie dit genoteerd. Dit heeft hij in een speciaal programma gedaan. Hier kwam vervolgens een csv bestand uit. De acties die hij heeft genoteerd zijn:
@@ -266,7 +268,7 @@ Voor deze dataset heeft een stagiair naar een wedstrijd gekeken en bij elke acti
 Hierbij staat er per elke actie aangegeven op welk moment dit plaatsvindt en hoelang het duurt.  
 bij alles behalve fast break, fast defense, score en ball possesion staat er aangegeven welke speler dit is. Want bij de andere gaat het om de hele team.
 
-In totaal bevat de data set 7 features en 808 rows. 
+In totaal bevat de dataset 7 features en 808 rows. 
 
 ## Data visualization (exploratory)
 
@@ -314,7 +316,8 @@ Bij het data preparation stuk heb ik twee stukken samengevoegd. Deze waren eerde
 #### problem description
 Na de eerste feedback ronden kwamen we er als groep achter dat het problem description gedeelte moest worden vernieuwd. Ik heb dit toen samen met Alex gedaan. We hebben de problem description opnieuw geschreven en nieuwe research (sub)questions geformuleerd. De research question is op een later moment nog verder veranderd. 
 
-
+#### Verdere kleine uitwerkingen
+Toen het verslag was hebben we als groep het verslag doorgenomen en de docenten om feedback gevraagd. Hieruit heb ik aan verschillende delen gewerkt: discussie, introductie en probleemdescriptie. Ook heb ik meerdere keren het verslag doorgenomen en feedback gegeven.
 
 
 
