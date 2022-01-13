@@ -128,7 +128,7 @@ Het is eigenlijk totaal niet goed. Dit is waarom er ook naar de precision en rec
 Het is daarom belangrijk om een confusion matrix  te gebruiken. Als ik dit niet had gedaan was ik waarschijnlijk heel trots geweest op een model dat eigenlijk niet werkt.
 ## Visualizing the outcome of a model (explanatory)
 
-Het is belangrijk dat iets gevisualiseerd wordt. Een mens kijk namelijk liever naar grafische dingen dan naar tekst. Ik heb dan ook bepaalde dingen van het model gevisualiseerd. De belangrijkste hiervan is toch wel de confusion matrix. Hierin kan men in één oogopslag zien hoe goed het model is. Dit is de confusion matrix: ![confusion matrix]() Ook heb ik de feature importance gevisualiseerd, het is nu mogelijk om in één oogopslag te zien wat de verhouding is tussen de features: ![feature importance]()
+Het is belangrijk dat iets gevisualiseerd wordt. Een mens kijk namelijk liever naar grafische dingen dan naar tekst. Ik heb dan ook bepaalde dingen van het model gevisualiseerd. De belangrijkste hiervan is toch wel de confusion matrix. Hierin kan men in één oogopslag zien hoe goed het model is. Dit is de confusion matrix: ![confusion matrix](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/conf%20visualisation%20example.png) Ook heb ik de feature importance gevisualiseerd, het is nu mogelijk om in één oogopslag te zien wat de verhouding is tussen de features: ![feature importance](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/feature%20importance%20visualisation.png)
 
 
 
