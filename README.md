@@ -128,12 +128,7 @@ Het is eigenlijk totaal niet goed. Dit is waarom er ook naar de precision en rec
 Het is daarom belangrijk om een confusion matrix  te gebruiken. Als ik dit niet had gedaan was ik waarschijnlijk heel trots geweest op een model dat eigenlijk niet werkt.
 ## Visualizing the outcome of a model (explanatory)
 
-### To DO
-
-
-
-
-
+Het is belangrijk dat iets gevisualiseerd wordt. Een mens kijk namelijk liever naar grafische dingen dan naar tekst. Ik heb dan ook bepaalde dingen van het model gevisualiseerd. De belangrijkste hiervan is toch wel de confusion matrix. Hierin kan men in één oogopslag zien hoe goed het model is. Dit is de confusion matrix: ![confusion matrix]() Ook heb ik de feature importance gevisualiseerd, het is nu mogelijk om in één oogopslag te zien wat de verhouding is tussen de features: ![feature importance]()
 
 
 
@@ -178,6 +173,8 @@ Bij dit project is het meerdere keren voor gekomen dat ik snel iets wilde opzoek
         - https://towardsdatascience.com/
         - https://curiousily.com/posts/build-your-first-neural-network-with-pytorch/
         - https://www.datacamp.com
+        - https://stackoverflow.com
+        - https://datascience.stackexchange.com
     - *Library sites*
         - https://pandas.pydata.org/docs/user_guide/index.html#user-guide
         - https://scikit-learn.org/stable/user_guide.html
