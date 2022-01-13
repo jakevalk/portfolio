@@ -229,11 +229,11 @@ Tijdens het project heb ik veel met models gewerkt. Dit is zowel tijdens de prot
 ## Data exploration
 In het begin van het project was de dataset compleet onduidelijk. Om dit duidelijker te krijgen heb ik voor meerdere features besloten om deze te visualiseren. Hierbij nam ik verschillende columns en gaf dit weer in combinatie met de TimeLine. Dit komt omdat het een time series is. Dit betekend dat het tijd gebruikt om de data te structureren. Ik heb vervolgens hiervoor meerdere data punten samen gevisualiseerd. Dit gaf mij toender tijd een goed beeld van de situatie.
 
-Om een beter beeld te krijgen ben ik begonnen met experimenteren met de dataset. Dit heb ik toen gedaan omdat er tijdens dit proces verschillende problemen opkomen dat is dan dan vervolgens worden verwerkt. [zie hier er meer over](https://www.jakevandervalk.nl)
+Om een beter beeld te krijgen ben ik begonnen met experimenteren met de dataset. Dit heb ik toen gedaan omdat er tijdens dit proces verschillende problemen opkomen dat is dan dan vervolgens worden verwerkt. [zie hier er meer over](https://github.com/jakevalk/portfolio/blob/main/Notebooks/data%20exploration.ipynb)
 
 ## Data cleansing
 
-De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in de model gestopt. Dit kan je [hier]() zien.
+De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in de model gestopt. Dit kan je [hier](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/DataCleaning%20time%20fix.pdf) zien.
 
 ## Data preparation
 
