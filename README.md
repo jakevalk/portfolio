@@ -56,7 +56,7 @@ Op dit moment werkt het enkel met sprints. Dit is maar één beweging. Het was o
 ## Conclusions
 
 In dit project hebben we een methode ontworpen die rolstoelbasketbal sprints classificeert doormiddel van een RNN en een RFC. Deze methode maakt het mogelijk om sprints te classificeren in een dataset dat maar voor een deel gedefineerd is. Dit wordt gedaan door de resultaten te vergelijken tussen de twee modellen. Door het vergelijken van de resultaten zijn we van 2.3% naar 17.3% gegaan, dit is hoeveel de dataset uit sprints bestaat.
-Tijdens het validatieproces is gebleken dat de RFC nu 90.4% van alle getagde sprints kan vinden. Dit doet de RFC met een precision van 89%. Dit hebben we vervolgens getest op een andere speler. De RFC had een precision van 91.67% bij de dataset van de andere speler. Dit laat zien dat de model goed werkt, en het mogelijk maakt om sprints te classificeren doormiddel van meerdere modelen.
+Tijdens het validatieproces is gebleken dat de RFC nu 90.4% van alle getagde sprints kan vinden. Dit doet de RFC met een precision van 89%. Dit hebben we vervolgens getest op een andere speler. De RFC had een precision van 91.67% bij de dataset van de andere speler. Dit laat zien dat het model goed werkt, en het mogelijk maakt om sprints te classificeren doormiddel van meerdere modelen.
 
 ## Planning
 Ik heb tijdens het project veel met scrum gewerkt. Ik was namelijk de scrummaster. Ik was de scrummaster omdat ik degene was die het meeste ervaring had van scrum. Ik heb bij het project mijn best gedaan om de best practice regels van scrum te volgen. Dit was niet altijd even makkelijk. Tijdens het project waren er steeds momenten dat het niet helemaal perfect ging. Het verdelen van punten zorgde namelijk voor verwarring. Om dit op te lossen had ik besloten om scrumpoker te gebruiken. Dit is een methode waarin dit een stuk eenvoudiger wordt gedaan. Iedereen vult namelijk op een website een getal in en dit wordt vervolgens weergegeven. Dit is misschien heel simpel maar het heeft wel veel geholpen. 
@@ -180,34 +180,36 @@ Als ik langere research deed dan maakte ik vaak gebruik van research papers. Dez
     - **Model**
     Een model is het bestand dat getraind wordt om verschillende patronen te herkennnen.
         - **Classification** Bij classification wordt een label voorspelt op basis van de input. Het wordt gebruikt om verschillende objecten van elkaar te onderscheiden. Dit wordt vervolgens in categorieën gestopt. 
-        Dit zijn classification models:
+        Dit zijn classification modellen:
             - KNearestNeighbours
             - Gaussian Naive Bayes
             - Decision Tree
             - RFC
-        - **Regression** Bij regression wordt er bepaalde waarde voorspelt. Denk hierbij aan de temperatuur of de koerswaarde van een aandeel.
+        - **Regression** Bij regression wordt er bepaalde waarde voorspelt. Denk hierbij aan de temperatuur of de koerswaarde van een aandeel. Dit zijn regression modellen:
+            - Linear Regression
+            - Polynomial Regression
         - **Ranking** Bij ranking wordt er een bepaalde volgorde voorspelt. Denk hierbij aan een zoek algoritme waarbij op basis van voorkeuren een volgorde wordt voorspelt.
         - **Clustering** Bij clustering worden vergelijkbare datapunten gegroepeerd. Dit wordt vaak bij algoritmes gebruikt voor marketing. Hier worden dan personen op basis van eigenschappen gesplitst en in groepen gestopt.
         - **Overfitting**
-            Bij overfitting is er sprake van dat de model te goed getraind is op de dataset. Dit is een probleem omdat het dan ook enkel werkt op die ene dataset. Hierdoor is de model niet gebruikbaar voor andere datasets. de model zal enkel de patronen uit de oude dataset herkennen. Dit is te verminderen door technieken als cross-validation te gebruiken.
-        - **Underfitting** Bij underfitting is er sprake van een model dat niet heel erg goed is in het identificeren van een patroon in de data. Het is eigenlijk het tegenovergestelde van overfitting. Het betekend dat de model te simpel voor de data. Dit is oplosbaar door een nieuwe set features te gebruiken of gewoon een nieuwe model te gebruiken.
+            Bij overfitting is er sprake van dat het model te goed getraind is op de dataset. Dit is een probleem omdat het dan ook enkel werkt op die ene dataset. Hierdoor is het model niet gebruikbaar voor andere datasets. het model zal enkel de patronen uit de oude dataset herkennen. Dit is te verminderen door technieken als cross-validation te gebruiken.
+        - **Underfitting** Bij underfitting is er sprake van een model dat niet heel erg goed is in het identificeren van een patroon in de data. Het is eigenlijk het tegenovergestelde van overfitting. Het betekend dat het model te simpel voor de data. Dit is oplosbaar door een nieuwe set features te gebruiken of gewoon een nieuwe model te gebruiken.
     - **Neural Network** een neural netwerk is een ander soort model. Dit soort model lijkt veel op de hersenen van een mens. Een NN bestaat uit meerdere lagen met nodes. Deze nodes hebben een input en een output. Iedere node kan een wiskundige berekening uitvoeren. Door deze nodes aan elkaar te koppelen kan de NN hele ingewikkelde dingen. Dit is vergelijkbaar met de mens.
         - **Epochs**
-        Bij het trainen van een NN maak je gebruik van een epoch. Bij één epoch wordt de model één keer getraind met de dataset. Het is de bedoeling dat er meerdere epochs zijn. Dit betekend dat er meerdere keren over de dataset heen wordt gegaan. in het geval dat er 300 epochs zijn zal de NN 300 keer de dataset zien.
+        Bij het trainen van een NN maak je gebruik van een epoch. Bij één epoch wordt het model één keer getraind met de dataset. Het is de bedoeling dat er meerdere epochs zijn. Dit betekend dat er meerdere keren over de dataset heen wordt gegaan. in het geval dat er 300 epochs zijn zal de NN 300 keer de dataset zien.
         - **Learning rate**
         De learning rate is de snelheid waarmee een NN leert. Als het laag is duurt het heel lang. Als het hoog is gaat het snel maar er is een kans dat de optimum niet bereikt wordt. 
         - **Linear layers**
         Een NN bestaat uit 1 of meer lagen. Dit is waar de nodes in zitten. Des te meer lagen er zijn, des te complexer het wordt. Een NN met 3 lagen kan meer dan een NN met 1 laag. Het duurt wel langer om te trainen dan een NN met 1 laag.
-- **Preprocessing** Om een model te gebruiken moet de data eerst goed verwerkt zijn. Als de dataset een rotzooi is zal het niet goed werken. Dit wordt gedaan om de effectiviteit van een model te verbeteren en/of om te zorgen dat de model überhaupt werkt. Dit kan gedaan worden met de volgende stappen:
+- **Preprocessing** Om een model te gebruiken moet de data eerst goed verwerkt zijn. Als de dataset een rotzooi is zal het niet goed werken. Dit wordt gedaan om de effectiviteit van een model te verbeteren en/of om te zorgen dat het model überhaupt werkt. Dit kan gedaan worden met de volgende stappen:
     - **Cleaning** Vaak is een dataset een rotzooi. Het is daarom belangrijk dat de dataset wordt opgeschoond. Er zijn vaak waardes die niet kloppen of niet aanwezig zijn. Tijdens de cleaning zorg je ervoor dat de NaN waardes worden weggewerkt en dat de verkeerde data wordt opgelost.
-    - **Scaling** Het is belangrijk dat één soort feature niet op twee verschillende manieren wordt weergegeven. Eén centimeter is namelijk kleiner dan één inch. Het is daarom belangrijk om de data te schalen zodat één soort waarde niet onbedoeld de model beinvloed.
-    - **Balancing** Indien de positieve en negatieve rows in een dataset niet goed gebalanceerd zijn zal de dataset minder goed werken. Als bijna alle rows negatief zijn zal de model zeggen dat alle rows negatief zijn. Dit wil je voorkomen. Er zijn meerdere manieren om dit te balanceren. Als er ongeveer even positieve als negatieve rows zijn zal dit een stuk beter werken.
-    - **Numeric** Een model werkt niet goed met een combinatie van getallen en woorden. Indien beide voorkomen zal de model crashen. Dit is te voorkomen door het woord een getal aantewijzen. 
+    - **Scaling** Het is belangrijk dat één soort feature niet op twee verschillende manieren wordt weergegeven. Eén centimeter is namelijk kleiner dan één inch. Het is daarom belangrijk om de data te schalen zodat één soort waarde niet onbedoeld het model beinvloed.
+    - **Balancing** Indien de positieve en negatieve rows in een dataset niet goed gebalanceerd zijn zal de dataset minder goed werken. Als bijna alle rows negatief zijn zal het model zeggen dat alle rows negatief zijn. Dit wil je voorkomen. Er zijn meerdere manieren om dit te balanceren. Als er ongeveer even positieve als negatieve rows zijn zal dit een stuk beter werken.
+    - **Numeric** Een model werkt niet goed met een combinatie van getallen en woorden. Indien beide voorkomen zal het model crashen. Dit is te voorkomen door het woord een getal aantewijzen. 
     - **Outliers** Soms zijn er waardes die niet realistisch zijn. Als er bijvoorbeeld gemeten wordt dat een auto 400 km/h gaat klopt er iets niet. Dit zou het model kunnen verwarren. Dit wordt een outlier genoemd.
-- **Evaluation**
-    - **Evaluation models**
-    - **Confusion Matrix**
-    - **Loss**
+- **Evaluation** Nadat een model is getraind is het belangrijk dat het model ook daadwerkelijk nut heeft. Daarom is het belangrijk dat het geevalueerd wordt. Dit zijn dingen die hiervoor belangrijk zijn:
+    - **Cross Validation** De dataset wordt in tweeen gesplitst: een trainings set en een validatie set. Hierbij traint men het model op de trainings set en valideert het model op de validatie set. Vaak wordt het zo gesplitst: 75% training, 25% validatie.
+    - **Confusion Matrix** Bij een classificatie model wordt een confusion matrix gebruikt. Hierin staat hoeveel goed is voorspelt en hoeveel fout. ![confusion matrix](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/confusionmatrix.png) Doormiddel van deze waardes kan de Accuracy, Precision en Recall berekend worden. De accuracy geeft weer hoevaak het goed was ((TP + TN)/ N). Precision is hoe precies de model is (TP /(TP+FP)). en de recall is hoevaak het een positieve waarde heeft geantwoord (TP /(TP + FN)). 
+    - **Loss** De loss is de hoeveelheid dat het model afwijkt van wat het moet zijn. Dit is nodig voor een regression model. Des te hoger de loss des te slechter is het model. 
 - **IMU** Een IMU is een apparaat dat bestaat uit verschillende accelerometers en gyroscopen waarmee rotaties en krachten kunnen worden gemeten/uitgevoerd.
 - **Scrum** Scrum is een werkmethode waarbij flexibel tot een eindproduct wordt gewerkt. Hierbij wordt er in korte stappen steeds werkende stukken software opgeleverd. Samenwerking is bij deze methode heel belangrijk.
     - **Scrummaster** De scrummaster is een persoon die er voor zorgt dat Scrum goed toegepast wordt. Hij/zij lost hierbij mogelijke knelpunten op en zorgt ervoor dat de rest zich 100% op het project kan focussen.
@@ -242,7 +244,7 @@ Als ik langere research deed dan maakte ik vaak gebruik van research papers. Dez
 
 
 # Data preprocessing
-Tijdens het project heb ik veel met models gewerkt. Dit is zowel tijdens de prototype fase gebeurt als bij de "echte" project.
+Tijdens het project heb ik veel met modellen gewerkt. Dit is zowel tijdens de prototype fase gebeurt als bij de "echte" project.
 
 ## Data exploration
 In het begin van het project was de dataset compleet onduidelijk. Om dit duidelijker te krijgen heb ik voor meerdere features besloten om deze te visualiseren. Hierbij nam ik verschillende columns en gaf dit weer in combinatie met de TimeLine. Dit komt omdat het een time series is. Dit betekend dat het tijd gebruikt om de data te structureren. Ik heb vervolgens hiervoor meerdere data punten samen gevisualiseerd. Dit gaf mij toender tijd een goed beeld van de situatie.
@@ -253,7 +255,7 @@ Voor de contact momenten heb ik een functie gebruikt om deze te weergeven. Deze 
 
 ## Data cleansing
 
-De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in de model gestopt. Dit kan je [hier](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/DataCleaning%20time%20fix.pdf) zien.
+De dataset van het project was verre van perfect. Sommige dingen klopte gewoon niet. Hier had ik bij de collisions veel last van. Dit kwam voornamelijk doordat de dataset getagd was door een persoon. Het was dus subjectief. Ik ben toen vervolgens langs alle datapunten heen gegaan en gecheckt of de tijd klopte. Dit was van de 30 samples maar 8 keer het geval. Het klopte dus 22 keer niet. Dit heb ik vervolgens in de dataset aangepast. De accurate tijd was van belang omdat er in model steeds blokjes van 1 seconde worden gestopt. Indien er een seconde naast wordt gezeten zal dit natuurlijk niet accuraat zijn. Er wordt dan het verkeerde moment in het model gestopt. Dit kan je [hier](https://github.com/jakevalk/portfolio/blob/main/afbeeldingen/DataCleaning%20time%20fix.pdf) zien.
 
 Tijdens het proces kwam ik er achter dat er sommige dingen getagd waren waar eigenlijk niks gebeurd. Als er bij de gevallen al iets gebeurde was het extreem licht. Dit was dusdanig licht dat er niks te zien was in de data. Deze datapunten zorgden er dus voor dat verkeerde data als positief werd voorspelt. Het moest dus worden verwijderd. Uiteindelijk waren van de 30 getagde contact momenten maar 19 overgebleven. Uiteindelijk klopte dus 42,11% niet.
 ## Data preparation
@@ -414,7 +416,7 @@ Ik heb bij de minor veel nieuwe dingen geleerd. Ik heb een nieuwe taal geleerd (
 
 #### **Reflectie**
 
-Eerder in mijn studie ben ik in contact gekomen met Artificial Intelligence. Dit heb ik altijd heel erg gaaf gevonden. Ik wou hier dus ook meer over weten. De kennis die ik al had ging voornamelijk over Game AI, denk hierbij aan iets als Reinforced learning. Het was zeker interessant om te zien hoe AI op een andere manier gebruikt kon worden. Ik was soms verbaasd om te zien hoe een model vergelijkingen kon trekken uit een dataset. Ook vond ik het bijzonder om te zien dat de model gedeelte qua code nog het simpelst is en de data preproccessing het ingewikkeldst. Ik had het zelf andersom verwacht. Machine learning is natuurlijk iets wat voor een leek heel onbekend is [https://royalsociety.org/-/media/policy/projects/machine-learning/publications/public-views-of-machine-learning-ipsos-mori.pdf].
+Eerder in mijn studie ben ik in contact gekomen met Artificial Intelligence. Dit heb ik altijd heel erg gaaf gevonden. Ik wou hier dus ook meer over weten. De kennis die ik al had ging voornamelijk over Game AI, denk hierbij aan iets als Reinforced learning. Het was zeker interessant om te zien hoe AI op een andere manier gebruikt kon worden. Ik was soms verbaasd om te zien hoe een model vergelijkingen kon trekken uit een dataset. Ook vond ik het bijzonder om te zien dat het model gedeelte qua code nog het simpelst is en de data preproccessing het ingewikkeldst. Ik had het zelf andersom verwacht. Machine learning is natuurlijk iets wat voor een leek heel onbekend is [https://royalsociety.org/-/media/policy/projects/machine-learning/publications/public-views-of-machine-learning-ipsos-mori.pdf].
 
 Ik heb mij veel op een persoonlijk vlak kunnen verbeteren. Ik heb meerdere keren voor de klas gestaan voor een presentatie en ik heb ook met de groep veel leuke dingen gedaan. Dit was door corona helaas niet altijd mogelijk.
 
